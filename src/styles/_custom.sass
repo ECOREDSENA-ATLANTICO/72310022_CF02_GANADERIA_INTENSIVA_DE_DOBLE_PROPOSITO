@@ -1,14 +1,37 @@
+.banner-principal__componente, .banner-principal__descripcion
+  h1, p
+    color:#12263F
+
+  
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 2.3s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 3%
+    right: 25%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 38%
+    right: 5%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 25%
+  &-4
+    animation: zoom-in-zoom-out 4.3s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: 45%
+
+@keyframes zoom-in-zoom-out 
+  0%
+    transform: scale(0.85, 0.85)
+  50%
+    transform: scale(1, 1)
+  100% 
+    transform: scale(0.85, 0.85)
 
 
 @keyframes float1
@@ -17,3 +40,472 @@
 
   100%
     transform: translateY(0px)
+
+
+@media (max-width: 767px) 
+  .column-reverse
+      flex-direction: column-reverse !important
+
+
+.banner-interno__fondo
+  background-position: top !important
+
+.banner-interno
+  .container
+    h2
+      color: #12263F
+
+
+a.boton span, a.boton i
+  color: white !important
+
+
+.bg01
+  background-image: url(../assets/curso/temas/tema1/img04.png)
+  background-size: cover
+
+.img-t
+  height: auto
+  width: auto
+
+.mod-fondo-01, .mod-fondo-02, .mod-fondo-03, .mod-fondo-04, .mod-fondo-07, .mod-fondo-09, .mod-fondo-11, .mod-fondo-14, .mod-fondo-15
+  position: relative
+  &::before
+    content: ''
+    width: 100vw
+    position: absolute
+    background-image: url(../assets/curso/temas/tema1/img36.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+    height: 100%
+    left: 50%
+    top: 50%
+    transform: translate(-50%,-50%)
+
+.mod-fondo-05, .mod-fondo-06, .mod-fondo-10, .mod-fondo-12, .mod-fondo-13
+  position: relative
+  &::before
+    content: ''
+    width: 100vw
+    position: absolute
+    background-image: url(../assets/curso/temas/tema1/img37.png)
+    background-size: cover
+    background-repeat: no-repeat
+    height: 100%
+    left: 50%
+    top: 50%
+    transform: translate(-50%,-50%)
+
+.mod-fondo-11
+  &::before
+    top: 80%
+
+.mod-fondo-12
+  &::before
+    height: 110%
+
+.mod-fondo-01 > *, .mod-fondo-02 > *, .mod-fondo-03 > *, .mod-fondo-04 > *, .mod-fondo-05 > *, .mod-fondo-06 > * , .mod-fondo-07 > * , .mod-fondo-09 > *, .mod-fondo-10 > *, .mod-fondo-11 > *, .mod-fondo-12 > *, .mod-fondo-13 > *, .mod-fondo-14 > *, .mod-fondo-15 > *
+  z-index: 0
+  position: relative
+
+.mod-fondo-02
+  position: relative
+  margin-bottom: 3rem
+  padding-top: 3rem
+
+.mod-ventajas-p
+  font-size: 2.4rem
+  font-weight: 600
+  position: absolute
+
+.mod-color-naranja
+  background-color: $color-naranja-claro
+
+.mod-color-verde
+  background-color: $color-secundario
+
+.mod-color-verde-claro
+  background-color: $color-verde-claro
+
+.mod-texto-naranja
+  color: #C78437
+
+.mod-texto-verde
+  color: #748578
+
+.mod-ventajas 
+  p
+    margin: 0px
+    text-align: center
+
+.titulo-imagen-izq
+  background-color: #4D584F
+  position: relative
+  color: white
+  display: inline-flex
+  align-items: center
+  padding: 10px 30px
+  padding-left: 70px
+  border-radius: 30px
+  &:before
+    background-image: url(../assets/curso/temas/tema1/img09.svg)
+    background-size: cover
+    content: ''
+    width: 70px
+    height: 70px
+    display: block
+    position: absolute
+    left: -10px
+
+.mod-derecha-gradiente
+  background: rgb(252,219,180)
+  background: linear-gradient(180deg, rgba(252,219,180,1) 0%, rgba(193,221,199,1) 100%)
+
+.mod-slider-pastoreo h3
+  font-weight: 600
+
+.mod-slider-pastoreo 
+  .slyder-a__bullets__item 
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+  .slyder-a__btn--sigt
+    background-color: $color-acento-botones
+  .slyder-a__btn--atrs
+    background-color: $color-acento-botones
+
+.tarjeta--container
+  p
+    margin: 0px
+
+.linea-tiempo-d
+  &__item__dots
+    &:after
+      border-left: 5px dotted #AFAFAF
+
+.mod-tabs-narver.linea-tiempo-d .tarjeta
+  background-color: $color-naranja-claro
+  
+.mod-tabs-narver .linea-tiempo-d__item--selected .tarjeta
+  background-color: $color-verde-claro
+
+.titulo-imagen-der
+  background-color: #FBB15D
+  display: inline-flex
+  position: relative
+  padding: 10px 40px 10px 20px
+  border-radius: 0px 30px 0px 0px
+  &::after
+    content: ''
+    background: $color-verde-oscuro
+    position: absolute
+    right: 0
+    top: 0
+    width: 22px
+    height: 22px
+    border-radius: 50px
+
+.mod-ac-narver
+  background-color: $color-naranja-claro
+
+.mod-ac-narver.acordion__activo
+  background-color: $color-verde-claro
+
+.mod-ac-narver .acordion__accion__btn--a
+  background-color: $color-primario
+  color: white
+
+.mod-ac-narver.acordion__activo .acordion__accion__btn--a
+  background-color: $color-verde-oscuro
+
+.mod-tabs-gris 
+  border: none
+
+.mod-tabs-gris .tabs-c__tab--active
+  border-color: $color-verde-oscuro !important
+
+.mod-tabs-gris .tabs-c__tab--active:before
+  color: $color-verde-oscuro
+
+.mod-tabs-gris .tabs-c__content-item
+  background: #F2F2F2
+  border: 1px solid #E8E8E8
+
+.mod-tabs-gris .tabs-c__header 
+  margin-bottom: 0px
+
+.mod-centrado-dorado p
+  background-color: $color-acento-contenido
+  width: auto
+  margin: auto
+  padding: 10px 30px
+  border-radius: 5px
+
+.mod-info-vaca
+  .img-infografica__item__numero
+    color: transparent
+  .tarjeta
+    background-color: #F6F6F6
+    border-left: 10px solid $color-acento-contenido
+    border-radius: 8px
+    box-shadow: 1px 1px 5px lightgray
+  .tarjeta.color-acento-botones *
+    color: #12263F !important
+
+.mod-tarjeta-sobresale
+  background-size: cover
+  position: relative
+  min-height: 110px
+  display: flex
+  align-items: center
+  border-radius: 20px
+  img 
+    height: 140px
+    width: auto
+    position: absolute
+    left: 60px
+    top: -12px
+
+.mod-tabla-verde thead
+  background-color: $color-secundario
+
+.mod-tabla-verde tbody
+  tr
+    &:nth-child(even)
+      background-color: #F2F8F4
+    &:nth-child(odd)
+      background-color: $color-verde-claro
+
+.mod-tabla-verde.alt tbody
+  tr
+    &:nth-child(odd)
+      background-color: #F2F8F4
+    &:nth-child(even)
+      background-color: $color-verde-claro
+
+.mod-lista-flecha i.lista-ul__vineta
+  &::before 
+    background-image: url(../assets/curso/temas/tema1/flecha.svg)
+    content: ''
+    width: 12px
+    height: 12px
+    background-size: cover
+    display: inline-block
+    font-size: 0
+    vertical-align: middle
+
+.mod-lista-flecha li
+  border-bottom: 1px solid #AFAFAF
+  padding-bottom: 10px
+  &:last-child
+    border: none
+
+.titulo-flecha-izq
+   &::before 
+    background-image: url(../assets/curso/temas/tema1/triangulo.svg)
+    content: ''
+    width: 14px
+    height: 18px
+    background-size: cover
+    display: inline-block
+    font-size: 0
+    vertical-align: middle
+    margin-right: 5px
+
+.mod-tarjetas-fondo-blanco .horizontal-scroll__wrapper 
+  padding: 2rem .5rem
+
+.mod-tarjetas-fondo-blanco .tarjeta
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23)
+  background-color: white
+
+.mod-tarjetas-fondo-blanco i 
+  color: white
+  background: $color-acento-contenido
+  border-radius: 30px
+  font-size: 15px
+  width: 50px
+  height: 50px
+  text-align: center
+  line-height: 50px
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+
+.mod-tarjetas-fondo-blanco .slyder-f__btn 
+    width: auto
+    z-index: 99
+
+.titulo-imagen-izq.dos
+  &:before
+    background-image: url(../assets/curso/temas/tema2/img11.svg)
+
+@media (max-width: 575px)
+  .titulo-imagen-izq 
+    padding-left: 80px
+    padding-top: 20px
+    padding-bottom: 20px
+  
+  .titulo-imagen-izq
+    &::before
+      left: 0px
+  
+  .mod-tarjeta-sobresale img
+    position: relative
+    top: auto
+    left: auto
+    margin: auto
+    height: auto
+
+@media (max-width: 768px)
+  .mod-tarjeta-sobresale img
+    position: relative
+    top: auto
+    left: auto
+    margin: auto
+    height: auto
+
+  .mod-tarjetas-fondo-blanco .slyder-f__btn 
+    width: 8%
+
+  .mod-tarjetas-fondo-blanco i 
+    color: #dcc366
+    background: transparent
+    box-shadow: none
+    font-size: 20px
+  
+
+
+@media (max-width: 992px)
+  .mod-tarjetas-fondo-blanco .slyder-f__btn 
+    width: 8%
+    
+  .mod-tarjetas-fondo-blanco i 
+    color: #dcc366
+    background: transparent
+    box-shadow: none
+    font-size: 20px
+
+.titulo-imagen-izq.tres
+  &:before
+    background-image: url(../assets/curso/temas/tema3/img02.svg)
+
+.titulo-imagen-izq.cuatro
+  &:before
+    background-image: url(../assets/curso/temas/tema3/img08.svg)
+
+.titulo-imagen-izq.cinco
+  &:before
+    background-image: url(../assets/curso/temas/tema3/img12.svg)
+
+.titulo-imagen-izq.seis
+  &:before
+    background-image: url(../assets/curso/temas/tema4/img02.svg)
+
+.titulo-imagen-izq.siete
+  &:before
+    background-image: url(../assets/curso/temas/tema4/img04.svg)
+
+.titulo-imagen-izq.ocho
+  &:before
+    background-image: url(../assets/curso/temas/tema4/img04.svg)
+
+.titulo-imagen-izq.nueve
+  &:before
+    background-image: url(../assets/curso/temas/tema4/img04.svg)
+
+.titulo-imagen-izq.diez
+  &:before
+    background-image: url(../assets/curso/temas/tema5/img02.svg)
+
+.titulo-imagen-izq.once
+  &:before
+    background-image: url(../assets/curso/temas/tema5/img04.svg)
+
+.titulo-imagen-izq.doce
+  &:before
+    background-image: url(../assets/curso/temas/tema6/img02.svg)
+
+.dos .mod-ventajas-p
+  font-size: 1.4rem
+
+.mod-slider-pastoreo .slyder-a__btn--atrs 
+  background-image: url(../assets/curso/flecha-blanca-slider.svg)
+  background-repeat: no-repeat
+  background-size: 16px 24px
+  background-position: center
+
+.mod-slider-pastoreo .slyder-a__btn--sigt 
+  background-image: url(../assets/curso/flecha-blanca-slider.svg)
+  background-repeat: no-repeat
+  background-size: 16px 24px
+  background-position: center
+
+.mod-slider-pastoreo .mod-lista-flecha li, .mod-tabs-narver .mod-lista-flecha li
+  padding-bottom: 0px
+  border-bottom: 0px
+
+.mod-tabs-narver .mod-lista-flecha li:last-child, .mod-slider-pastoreo .mod-lista-flecha li:last-child  
+  margin: 0px !important
+
+.mod-tabs-narver .mod-lista-flecha ul, .mod-slider-pastoreo .mod-lista-flecha ul
+  margin-bottom: 0px !important
+
+.mod-tabs-vertical-verde button.tabs-a__tab.tabs-a__tab__selected 
+  background-color: #9BB19F !important
+  &::before
+    background-color: #9BB19F !important
+
+.mod-tabs-vertical-verde button.tabs-a__tab
+  background-color: #FEEDDA !important
+  color: #111e61 !important
+
+.mod-tabs-vertical-verde .tarjeta.p-4 
+  background: #F2F8F4
+
+.mod-fondo-13
+  padding-bottom: 2rem
+
+.mod-fondo-14
+  &::before
+    height: 110%
+    transform: translate(-50%, -50%) rotate(180deg)
+
+.mod-fondo-12
+  &::before
+    top: 60%
+
+.mod-tarjetas-numeros-izq .tarjeta-numerada__numero
+  top: 50%
+  transform: translateY(-50%)
+  left: -30px
+  border: 2px solid white
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.16), 0 3px 4px rgba(0, 0, 0, 0.23)
+
+.mod-tarjetas-numeros-izq .tarjeta-numerada
+  padding-left: 50px !important
+  border: none
+  min-height: 86px
+  align-items: center
+  display: flex
+  box-shadow: 1px 1px 4px #c9c9c9 !important
+
+.mod-tarjetas-numeros-izq p
+  margin-bottom: 0px
+
+.mod-tarjetas-numeros-izq .mod-ama
+  background: #F8F3E0
+
+.mod-tarjetas-numeros-izq .mod-ver
+  background: #E6F1E8
+
+.mod-tarjetas-numeros-izq .mod-ama .tarjeta-numerada__numero
+  background: rgb(242, 233, 199)
+  background: radial-gradient(circle, rgba(242, 233, 199, 1) 0%, rgba(234, 219, 163, 1) 100%)
+
+.mod-tarjetas-numeros-izq .mod-ver .tarjeta-numerada__numero
+  background: rgb(198,207,200)
+  background: radial-gradient(circle, rgba(198,207,200,1) 0%, rgba(155,177,159,1) 100%)
+
+.cajon.mod-cajat-verde 
+  background-color: #E6F1E8
+  &::before
+    background: #748578 
+    

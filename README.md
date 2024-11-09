@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-atlantico.github.io/72310022_CF02_GANADERIA_INTENSIVA_DE_DOBLE_PROPOSITO/](https://ecoredsena-atlantico.github.io/72310022_CF02_GANADERIA_INTENSIVA_DE_DOBLE_PROPOSITO/)
 
 #
 
