@@ -45,7 +45,7 @@
 
     h2.mb-3.titulo-flecha-izq Ventajas de la inseminación artificial
     .row.mb-5.mod-lista-flecha
-      .col-md-7
+      .col-12.col-lg-7
        
         ul.lista-ul
           li 
@@ -67,7 +67,7 @@
             i.lista-ul__vineta
             | La inseminación artificial ayuda a mejorar la producción.
 
-      .col-md-5.col-8.mx-auto
+      .col-8.col-lg-5.col-8.mx-auto
         figure
           img(src='@/assets/curso/temas/tema6/img04.png', alt='Imagen Decorativa')
     .mod-fondo-14
@@ -141,11 +141,11 @@
       
    
     .row.mb-5.position-relative
-      .col-lg-10
+      .col-md-12.col-lg-10
         h2.mb-3.titulo-flecha-izq Periodos de inseminación
         p.mb-2 Lo primero que se debe hacer para realizar una inseminación es identificar el ciclo estral de las hembras y las manifestaciones de éstas a través del comportamiento y los cambios externos en la anatomía y fisiología de los órganos reproductores, para así determinar exactamente cuándo una hembra está en celo y se puede proceder a realizar la inseminación artificial; de dicho proceso depende el éxito o el fracaso del programa.
         p.mb-4 Es muy común que en las fincas ganaderas se tenga establecido que la hembra que presenta su calor en horas de la mañana se le sirve en horas de la tarde y las hembras que manifiestan el calor en la tarde se inseminen en la mañana siguiente.
-      .col-md-2.col-8.mx-auto.mb-4.mb-lg-0
+      .col-md-6.col-6.mx-auto.mb-4.mb-lg-0
         img.img-t.mx-auto(src='@/assets/curso/temas/tema6/img15.png' alt='Imagen Decorativa')
       
     .mb-5.col-10.col-lg-8.mx-auto

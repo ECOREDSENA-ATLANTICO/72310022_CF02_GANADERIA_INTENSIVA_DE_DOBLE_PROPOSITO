@@ -69,7 +69,7 @@
     h2.mb-5.titulo-imagen-izq.dos Sistema de control externo de garrapatas y moscas
     .mod-fondo-10
       .row.mb-5
-        .col-lg-5.col-8.mx-auto.mb-4.mb-md-0
+        .col-lg-5.col-8.mx-auto.mb-4.mb-md-4
           img(src='@/assets/curso/temas/tema2/img09.png' alt='Imagen Decorativa')
         .col-lg-7
           p.mb-4 Los programas de desparasitación de garrapatas, moscas o nuches deben ir encaminados al control y no a la erradicación de los mismos.

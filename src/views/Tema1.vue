@@ -9,7 +9,7 @@
       
 
     .row.mb-5
-      .col-md-5.col-8.mx-auto.mb-4.mb-lg-0
+      .col-md-5.col-10.mx-auto.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema1/img05.png' alt='Imagen Decorativa')
       .col-lg-7
         p.mb-4 Cuando se habla de ganadería intensiva se hace referencia a la producción bovina tanto de leche como de carne en sistemas pequeños donde la carga animal va de 8 a hasta 30 bovinos por hectárea, este sistema de producción se caracteriza porque el ganado no busca su propio alimento, sino que este es suministrado por la persona encargada de la unidad productiva.
@@ -41,7 +41,7 @@
 
             p Se obtienen productos de muy buena calidad (leche y carne) y de esta manera puede satisfacer las necesidades de distribución y la demanda a gran escala.
 
-        .col-sm-6.col-lg-4.mb-4.d-flex
+        .col-12.col-sm-6.col-md-12.col-lg-4.mb-4.d-flex
           .tarjeta--boton.p-4.mod-color-naranja
             p.mod-ventajas-p.mb-0.mod-texto-naranja 03
             .row.justify-content-center.mb-3
@@ -52,10 +52,7 @@
             p La producción de carne va por encima de las 2 toneladas por año.
 
 
-
       h2.mb-5.titulo-imagen-izq Sistemas de pastoreo
-
-
 
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente
         .bloque-texto-g__img(
@@ -71,12 +68,12 @@
     .tarjeta.tarjeta--azul.p-4.p-md-5.mb-5.bg01.mod-slider-pastoreo
       SlyderA(tipo="b")
         .row
-          .col-md-7.mb-4.mb-md-0.row
+          .col-12.col-lg-7.mb-4.mb-md-0.row
             h3 Pastoreo rotacional intensivo con cargas altas
             p Consiste en utilizar terrenos no muy grandes los cuales son divididos en potreros pequeños y de igual tamaño, a estos se les introduce una alta densidad de ganado que oscila entre 10 a 15 animales por hectárea y son utilizados por 3 días con periodos de descanso de 24 días, esto se hace para que las pasturas crezcan de nuevo.
             p Es recomendable que después del pastoreo cada lote reciba fertilización con nitrógeno y con algunos correctivos, por tal razón, los bovinos son llevados a otro lugar mientras se le suministra fertilizante y riego para recuperarlo; una desventaja de este sistema es el alto costo de mantenimiento y establecimiento por la gran demande de fertilidad natural, clima y topografía.
 
-          .col-md-5.col-8.mx-auto
+          .col.col-lg-5.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen Decorativa')
               
@@ -84,12 +81,12 @@
         
         
         .row
-          .col-md-7.mb-4.mb-md-0.row
+          .col-12.col-lg-7.mb-4.mb-md-0.row
             h3 Estabulado (confinamiento)
             p En este sistema permanecen confinados y se utilizan pasturas de alta calidad que son suministradas al animal picadas o en ensilajes, mediante esta técnica se aprovechan más los forrajes porque no hay pérdidas por pisoteo ni existe contaminación por las heces del animal, lo cual ayuda a que haya una alta capacidad de la carga, esto se ve reflejado en el aumento de peso diario porque el ganado no gasta energía buscando alimento. 
             p En estabulación se suprime la selectividad del animal al buscar alimento, entonces se hace necesario reemplazarlo por suplementos y forrajes de muy buena calidad proteica.
 
-          .col-md-5.col-8.mx-auto
+          .col.col-lg-5.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen Decorativa')
               
@@ -97,12 +94,12 @@
 
 
         .row
-          .col-md-7.mb-4.mb-md-0.row
+          .col-12.col-lg-7.mb-4.mb-md-0.row
             h3 Semiestabulación
             p Este sistema es intermedio entre el pastoreo rotacional intensivo y el estabulado, los bovinos permanecen la mayor parte del tiempo en confinamiento con alimento, minerales y agua a voluntad, pero se llevan a que pastoreen en rotación durante algunas horas al día, con el fin de que completen sus requerimientos nutricionales y ejerciten los músculos. 
             p Mediante este sistema se hace un mejor manejo del ganado, se disminuye la pérdida de forraje por pisoteo y hay un mejor aprovechamiento del estiércol que se puede utilizar para hacer abonos compostados que son empleados en la unidad productiva como fertilizantes para los cultivos y las praderas.
 
-          .col-md-5.col-8.mx-auto
+          .col.col-lg-5.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen Decorativa')
               
@@ -202,7 +199,7 @@
 
 
     .row.mb-5
-      .col-lg-4.col-8.mx-auto.mb-4.mb-lg-0
+      .col-lg-4.col-sm-8.col-md-5.mx-auto.mb-4.mb-lg-0
         img(src='@/assets/curso/temas/tema1/img19.png', alt='Imagen Decorativa')
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul mod-ac-narver")
@@ -235,52 +232,50 @@
       TabsC.mb-5.mod-tabs-gris
         .p-5(titulo="Salud del animal")
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.col-md-12.mb-4.mb-md-0
               h4 Salud del animal
               p El manejo sanitario del ganado doble propósito incluye una serie de acciones que garantizan la salud del animal y la inocuidad de la leche y la carne. Los mecanismos utilizados para la prevención de enfermedades, administración y prescripción de medicamentos y tratamientos se deben realizar con responsabilidad y ética por parte del personal encargado del hato.
-
-            .col-md-6
+            .col-lg-6.col-md-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema1/img21.png', alt='Imagen Decorativa')
         
         .p-5(titulo="Veterinario")
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.col-md-12.mb-4.mb-md-0
               h4 Veterinario
               p El sistema de producción ganadera contará con personal profesional (veterinario) que se encargue de diagnosticar el estado de salud del ganado y las posibles enfermedades que estos pueden padecer; dicho profesional dará recomendaciones técnicas a los empleados acerca de los medicamentos que se le deben suministrar a los bovinos en caso de estar enfermos y la dieta que deben llevar los animales sanos y enfermos.
 
-            .col-md-6
+            .col-lg-6.col-md-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema1/img22.png', alt='Imagen Decorativa')
 
         .p-5(titulo="Control del ganado")
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.col-md-12.mb-4.mb-md-0
               h4 Control del ganado
               p En las fincas ganaderas de doble propósito se debe llevar un control de ingreso y de salida de los animales para evitar la propagación de enfermedades entre explotaciones ganaderas.
 
-            .col-md-6
+            .col-lg-6.col-md-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema1/img23.png', alt='Imagen Decorativa')
 
         .p-5(titulo="Chequeo y vigilancia")
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.col-md-12.mb-4.mb-md-0
               h4 Chequeo y vigilancia
               p Los bovinos recién introducidos en la finca ganadera se deben aislar para realizarles un respectivo chequeo y vigilancia, con el propósito de determinar posibles enfermedades o parásitos; esto se hace para disminuir el riesgo sanitario.
-
-            .col-md-6
+            .col-lg-6.col-md-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema1/img24.png', alt='Imagen Decorativa')
 
 
         .p-5(titulo="Controles periódicos")
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.col-md-12.mb-4.mb-md-0
               h4 Controles periódicos
               p Si en una explotación ganadera hay animales enfermos, estos se deben aislar del lote, identificarlos individualmente y realizarles controles periódicos por el profesional asignado.
 
-            .col-md-6
+            .col-lg-6.col-md-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema1/img25.png', alt='Imagen Decorativa')
 
@@ -339,7 +334,7 @@
 
 
     .row.mod-tarjeta-sobresale.mb-5.p-4.p-md-0(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img28.png')})`}")
-      .col-md-2
+      .col-6.col-md-2.mx-auto
         figure
           img(src='@/assets/curso/temas/tema1/img27.png', alt='Imagen Decorativa')
       .col-md-10
@@ -397,10 +392,10 @@
 
 
     .row.mb-5.mod-lista-flecha
-      .col-md-4.col-8.mx-auto.mb-4.mb-md-0
+      .col-lg-4.col-md-4.col-8.mx-auto.mb-4.mb-md-3
         figure
           img(src='@/assets/curso/temas/tema1/img29.png', alt='Imagen Decorativa')
-      .col-md-8
+      .col-lg-8
         p.mb-5 Este tipo de suplemento es proporcionado a los bovinos para sustituir las deficiencias de proteínas que tengan los forrajes, estos pueden ser vegetales o animales (se encuentra en la harina de pescado y la carne).
         ul.lista-ul
           li 
@@ -481,7 +476,7 @@
       h3.mb-5.titulo-imagen-der Otras medidas que ayudan a prevenir y garantizar la sanidad animal
 
       .row.mb-5.mod-lista-flecha
-        .col-md-8
+        .col-lg-8.mb-md-3
           ul.lista-ul
             li 
               i.lista-ul__vineta
@@ -501,7 +496,7 @@
             li 
               i.lista-ul__vineta
               | Recolectar muestras de heces para realizar el examen que determina la presencia de parásitos y de sangre, y de esta manera detectar la tuberculosis y la brucelosis.
-        .col-md-4.col-8.mx-auto
+        .col-lg-4.col-8.mx-auto
           figure
             img(src='@/assets/curso/temas/tema1/img35.png', alt='Imagen Decorativa')
 

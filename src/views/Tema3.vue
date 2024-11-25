@@ -80,7 +80,7 @@
 
     .mod-fondo-11
       .row.mb-5.mod-lista-flecha
-        .col-md-8
+        .col-12.col-lg-8
           p.mb-5 <strong>Los principales aspectos a tener en cuenta en el ordeño son:</strong>
           ul.lista-ul
             li 
@@ -105,13 +105,13 @@
 
 
 
-      .row.mb-5.mod-lista-flecha.d-flex.column-reverse 
+      .row.mb-5.mod-lista-flecha.d-flex.sm-flex-column-reverse
 
-        .col-md-5.col-8.mx-auto.mb-lg-0.mb-4
+        .col-lg-5.col-md-5.col-8.mx-auto.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema3/img11.png', alt='Imagen Decorativa')
 
-        .col-md-7
+        .col-12.col-lg-7
           ul.lista-ul
             li 
               i.lista-ul__vineta
@@ -146,7 +146,7 @@
           .row.justify-content-center.mb-3
             .col-md-8.col-6
               figure
-                img(src='@/assets/curso/temas/tema3/img14.png', alt='Imagen Decorativa')
+                img.mx-auto(src='@/assets/curso/temas/tema3/img14.png', alt='Imagen Decorativa')
 
           p Al observar signos de proximidad del parto, la vaca debe mantenerse en un lugar tranquilo y apartado de otros animales.
 
@@ -156,7 +156,7 @@
           .row.justify-content-center.mb-3
             .col-md-8.col-6
               figure
-                img(src='@/assets/curso/temas/tema3/img15.png', alt='Imagen Decorativa')
+                img.mx-auto(src='@/assets/curso/temas/tema3/img15.png', alt='Imagen Decorativa')
 
           p Las vacas primerizas deben llevarse al lote de ordeño y al corral para que se acostumbren.
 
@@ -166,7 +166,7 @@
           .row.justify-content-center.mb-3
             .col-md-8.col-6
               figure
-                img(src='@/assets/curso/temas/tema3/img16.png', alt='Imagen Decorativa')
+                img.mx-auto(src='@/assets/curso/temas/tema3/img16.png', alt='Imagen Decorativa')
 
           p Verificar que su condición corporal sea de 4 en una escala de 1 a 6.
 
@@ -176,7 +176,7 @@
           .row.justify-content-center.mb-3
             .col-md-8.col-6
               figure
-                img(src='@/assets/curso/temas/tema3/img17.png', alt='Imagen Decorativa')
+                img.mx-auto(src='@/assets/curso/temas/tema3/img17.png', alt='Imagen Decorativa')
 
           p Observar el aumento del tamaño de la ubre, la vulva y las secreciones.
 
@@ -184,14 +184,13 @@
 
     h3.mb-5.titulo-imagen-der Síntomas de las vacas próximas a parir
 
-
     .row.mb-5.mod-lista-flecha
 
       .col-md-5.col-8.mx-auto.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema3/img18.png', alt='Imagen Decorativa')
 
-      .col-md-7
+      .col-12.col-lg-7
         ul.lista-ul
           li 
             i.lista-ul__vineta
@@ -229,7 +228,7 @@
       .tarjeta.tarjeta--azul.p-4.p-md-5.mb-5.bg01.mod-slider-pastoreo
         SlyderA(tipo="b")
           .row
-            .col-lg-7.mb-4.mb-md-0.row
+            .col-12.col-lg-7.mb-4.mb-md-0.row
               h3 Lactante primer día
               .row.mb-5.mod-lista-flecha
                 ul.lista-ul
@@ -251,14 +250,13 @@
                   li 
                     i.lista-ul__vineta
                     | Limpiar las mucosas y el meconio del ternero.  
-
             .col-md-5.col-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen Decorativa')
                 
 
           .row
-            .col-lg-7.mb-4.mb-md-0.row
+            .col-12.col-lg-7.mb-4.mb-md-0.row
               h3 Lactante primer día
               .row.mb-5.mod-lista-flecha
                 ul.lista-ul
@@ -277,16 +275,13 @@
                   li 
                     i.lista-ul__vineta
                     | Vacunar al ternero contra la fiebre aftosa y revacunar cada seis meses, según lo establecido por el ICA. 
-
-
-
             .col-md-5.col-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema3/img20.png', alt='Imagen Decorativa')
 
 
           .row
-            .col-md-7.mb-4.mb-md-0.row
+            .col-12.col-lg-7.mb-4.mb-md-0.row
               h3 Lactante segundo día
               .row.mb-5.mod-lista-flecha
                 ul.lista-ul
@@ -296,15 +291,13 @@
                   li 
                     i.lista-ul__vineta
                     | Observar la viabilidad del ternero.
-
-
             .col-md-5.col-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema3/img21.png', alt='Imagen Decorativa')
 
 
           .row
-            .col-md-7.mb-4.mb-md-0.row
+            .col-12.col-lg-7.mb-4.mb-md-0.row
               h3 Lactante tercer día
               .row.mb-5.mod-lista-flecha
                 ul.lista-ul
@@ -323,8 +316,6 @@
                   li 
                     i.lista-ul__vineta
                     | Vacunar contra la rabia bovina y revacunar anualmente. 
-
-
             .col-md-5.col-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema3/img22.png', alt='Imagen Decorativa')
@@ -332,7 +323,7 @@
 
 
           .row
-            .col-md-7.mb-4.mb-md-0.row
+            .col-12.col-lg-7.mb-4.mb-md-0.row
               h3 Lactante desde el tercer día a los 60 días
               .row.mb-5.mod-lista-flecha
                 ul.lista-ul
@@ -351,16 +342,12 @@
                   li 
                     i.lista-ul__vineta
                     | Implementar un manejo en semiconfinamiento con rotación de potreros y suplementación de pasto de corte, caña, leguminosas, sal y agua.
-
-
             .col-md-5.col-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema3/img23.png', alt='Imagen Decorativa')
 
-
-
           .row
-            .col-md-7.mb-4.mb-md-0.row
+            .col-12.col-lg-7.mb-4.mb-md-0.row
               h3 Lactante de 3 a 4 meses
               .row.mb-5.mod-lista-flecha
                 ul.lista-ul
@@ -379,33 +366,24 @@
                   li 
                     i.lista-ul__vineta
                     | Fumigación. 
-            
-            
             .col-md-5.col-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema3/img24.png', alt='Imagen Decorativa')
 
-
-
           .row
-            .col-md-7.mb-4.mb-md-0.row
+            .col-12.col-lg-7.mb-4.mb-md-0.row
               h3 Lactante de 4 a 8 meses
               .row.mb-5.mod-lista-flecha
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
                     | Manejo en semiconfinamiento con rotación de potreros y suplementación de pasto de corte, caña, leguminosas, sal mineralizada, agua y bloques multinutricionales.
-
-
             .col-md-5.col-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema3/img25.png', alt='Imagen Decorativa')
 
-
-
-
           .row
-            .col-md-7.mb-4.mb-md-0.row
+            .col-12.col-lg-7.mb-4.mb-md-0.row
               h3 Lactante de 8 a 9 meses
               .row.mb-5.mod-lista-flecha
                 ul.lista-ul
@@ -434,7 +412,7 @@
 
 
     .row.mb-5.mb-lg-4.position-relative
-      .col-lg-5.col-8.mx-auto
+      .col-lg-5.col-6.mx-auto
         img(src='@/assets/curso/temas/tema3/img27.png' alt='Imagen Decorativa')
       .col-lg-7
 
