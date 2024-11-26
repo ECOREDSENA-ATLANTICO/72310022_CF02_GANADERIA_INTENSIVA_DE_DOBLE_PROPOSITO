@@ -5,15 +5,15 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Reproducción en bovinos
+      h1(data-aos="fade-right") Reproducción en bovinos
 
     .row.mb-5
-      .col-md-5.col-8.mx-auto.mb-4.mb-lg-0
+      .col-md-5.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema4/img01.png' alt='Imagen Decorativa')
       .col-lg-7
         p.mb-4 El proceso reproductivo de los bovinos está conformado por dos sistemas orgánicos como lo son el endocrino y el nervioso, cada uno desempeña un papel específico y entre ambos hay una leve interacción para que se produzca de manera exitosa el desarrollo, nacimiento y cría de un animal sano, esto es muy importante en el sistema ganadero porque es vital para la renovación biológica del hato.
 
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-acento-contenido.p-4(data-aos="fade-right")
           p.mb-0 Una alta productividad bovina es un factor muy importante para que haya beneficios económicos en la ganadería, porque cuando hay baja producción se ve reflejada en la disminución de leche, terneros y carne.
 
 
@@ -24,7 +24,7 @@
       p.mb-5 El aparato reproductor femenino tiene la función de manifestar el celo a través de signos como la inflamación de los labios, secreciones y cambios en la coloración de la vulva. Está compuesto por dos ovarios, dos conductos, un útero, la vagina y la vulva. Los cuernos uterinos, que se comunican con la vagina a través del vestíbulo ubicado debajo del ano, forman el aparato genital de la hembra. El clítoris produce excitación en la hembra, mientras que la parte exterior del órgano genital protege y facilita la entrada del pene del macho; le invitamos a conocer más sobre este aparato reproductor:
 
 
-      ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca
+      ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca(data-aos="fade-up")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema4/img03.png', alt='Imagen Decorativa')
@@ -72,7 +72,7 @@
     p.mb-5 En el sistema ganadero bovino, es esencial identificar los órganos sexuales del macho reproductor, su funcionamiento y las características fenotípicas deseables para la reproducción. El aparato reproductivo externo incluye pene, prepucio y testículos; el interno está compuesto por tubos seminíferos, epidídimo, ducto deferente, vesículas seminales, próstata y glándulas bulbouretrales. A continuación, se describen sus funciones:
   
 
-    ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca
+    ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca(data-aos="fade-up")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema4/img05.png', alt='Imagen Decorativa')

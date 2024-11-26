@@ -5,16 +5,16 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Monta natural e inseminación artificial
+      h1(data-aos="fade-right") Monta natural e inseminación artificial
     
     .mod-fondo-15
-      img.tarjeta.mb-5(src='@/assets/curso/temas/tema6/img01.jpg', alt='Imagen Decorativa')
+      img.tarjeta.mb-5(data-aos="fade-up")(src='@/assets/curso/temas/tema6/img01.jpg', alt='Imagen Decorativa')
 
       p.mb-5.text-center
         strong Los toros pueden ser usados en la monta natural de dos maneras
 
       .tarjeta--container.row
-        .col-md.tarjeta.p-4.mod-color-naranja.mb-4.mb-md-5.p-md-5
+        .col-md.tarjeta.p-4.mod-color-naranja.mb-4.mb-md-5.p-md-5(data-aos="fade-left")
           .row.justify-content-center.mb-4
             .col-5
               figure
@@ -23,7 +23,7 @@
           h2.text-center Mota libre
           p.text-center Como su nombre lo indica se realiza de manera espontánea, donde la detección del calor se lleva a cabo por el toro y las vacas son montadas varias veces en cada periodo, un solo toro puede montar de 40 a 50 hembras en calor por año; pero si no hay una marcada estacionalidad de los calores en los sistemas ganaderos grandes, los toros se deben rotar porque a veces resulta muy complicado tener dos o más toros en el mismo lugar porque estos tienen un comportamiento agresivo.
 
-        .col-md.tarjeta.p-4.mod-color-verde-claro.mb-4.mb-md-5.p-md-5
+        .col-md.tarjeta.p-4.mod-color-verde-claro.mb-4.mb-md-5.p-md-5(data-aos="fade-right")
           .row.justify-content-center.mb-4
             .col-5
               figure
@@ -35,7 +35,7 @@
 
     h2.mb-5.titulo-imagen-izq.doce Inseminación artificial
 
-    .bloque-texto-g.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente
+    .bloque-texto-g.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente(data-aos="fade-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img03.jpg')})`}"
       )
@@ -45,8 +45,7 @@
 
     h2.mb-3.titulo-flecha-izq Ventajas de la inseminación artificial
     .row.mb-5.mod-lista-flecha
-      .col-12.col-lg-7
-       
+      .col-12.col-lg-7(data-aos="fade-left")
         ul.lista-ul
           li 
             i.lista-ul__vineta
@@ -67,7 +66,7 @@
             i.lista-ul__vineta
             | La inseminación artificial ayuda a mejorar la producción.
 
-      .col-8.col-lg-5.col-8.mx-auto
+      .col-8.col-lg-5.col-8.mx-auto(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema6/img04.png', alt='Imagen Decorativa')
     .mod-fondo-14
@@ -79,9 +78,9 @@
           p.mb-0 Para implementar de manera exitosa un programa de inseminación artificial en la finca, se debe verificar lo siguiente:
       
       .row.mb-5
-          .col-lg-4.col-8.mx-auto.mb-4.mb-lg-0
+          .col-lg-4.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema6/img05.png' alt='Imagen Decorativa')
-          .col-lg-8
+          .col-lg-8(data-aos="fade-right")
             SlyderF(columnas="col-lg-6").mod-tarjetas-fondo-blanco
               .tarjeta.p-4
                 .row.justify-content-center.mb-3
@@ -141,14 +140,14 @@
       
    
     .row.mb-5.position-relative
-      .col-md-12.col-lg-10
+      .col-md-12.col-lg-8(data-aos="fade-left")
         h2.mb-3.titulo-flecha-izq Periodos de inseminación
         p.mb-2 Lo primero que se debe hacer para realizar una inseminación es identificar el ciclo estral de las hembras y las manifestaciones de éstas a través del comportamiento y los cambios externos en la anatomía y fisiología de los órganos reproductores, para así determinar exactamente cuándo una hembra está en celo y se puede proceder a realizar la inseminación artificial; de dicho proceso depende el éxito o el fracaso del programa.
         p.mb-4 Es muy común que en las fincas ganaderas se tenga establecido que la hembra que presenta su calor en horas de la mañana se le sirve en horas de la tarde y las hembras que manifiestan el calor en la tarde se inseminen en la mañana siguiente.
-      .col-md-6.col-6.mx-auto.mb-4.mb-lg-0
+      .col-md-6.col-lg-4.mx-auto.mb-4.mb-lg-0(data-aos="fade-right")
         img.img-t.mx-auto(src='@/assets/curso/temas/tema6/img15.png' alt='Imagen Decorativa')
       
-    .mb-5.col-10.col-lg-8.mx-auto
+    .mb-5.col-10.col-lg-8.mx-auto(data-aos="fade-up")
       .titulo-sexto.color-acento-contenido.mb-4
         h5 Figura 3.
         span Periodos de inseminación
@@ -157,9 +156,9 @@
     
     .mod-fondo-15
       .row.pb-5
-        .col-md-4.col-8.mx-auto.mb-4.mb-lg-0
+        .col-md-4.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema6/img17.png' alt='Imagen Decorativa')
-        .col-lg-8
+        .col-lg-8(data-aos="fade-right")
           .cajon.color-acento-contenido.p-4.mb-3
             p.mb-0 Esto se maneja así porque esos horarios coinciden con el momento de la ovulación y el periodo en el cual los espermatozoides son capaces de realizar la fertilización. Las hembras que manifiestan celo al mediodía deben ser inseminadas preferiblemente en la tarde o al anochecer.
           

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Sistema de control de parásitos
+      h1(data-aos="fade-right") Sistema de control de parásitos
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente
       .bloque-texto-g__img(
@@ -18,7 +18,7 @@
 
     .mod-fondo-09
       .row.mb-5
-        .col-lg-8
+        .col-lg-8(data-aos="fade-left")
           SlyderF(columnas="col-lg-6").mod-tarjetas-fondo-blanco
             .tarjeta.p-4
               .row.justify-content-center.mb-3
@@ -62,23 +62,23 @@
               p.text-center.mb-0 <strong>Dosis</strong>
               p.text-center.mb-0 La dosis de desparasitante que se le aplica al bovino debe ser la recomendada por el médico veterinario.
 
-        .col-lg-4.col-8.mx-auto.mb-4.mb-lg-0
+        .col-lg-4.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema2/img08.png' alt='Imagen Decorativa')
 
 
     h2.mb-5.titulo-imagen-izq.dos Sistema de control externo de garrapatas y moscas
     .mod-fondo-10
       .row.mb-5
-        .col-lg-5.col-8.mx-auto.mb-4.mb-md-4
+        .col-lg-5.col-8.mx-auto.mb-4.mb-md-4(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema2/img09.png' alt='Imagen Decorativa')
-        .col-lg-7
+        .col-lg-7(data-aos="fade-left")
           p.mb-4 Los programas de desparasitación de garrapatas, moscas o nuches deben ir encaminados al control y no a la erradicación de los mismos.
           .cajon.color-acento-contenido.p-4.mb-4
             p.mb-0 El mecanismo más utilizado para eliminar los parásitos externos son los baños, esto se hace dependiendo del tipo de plaga o mosca; por ejemplo, si el animal tiene garrapatas especie Amblyomma se debe bañar cada 15 días, pero si las garrapatas son de tipo Boophylusmicroplus lo debe hacer una vez al mes.
           p.mb-0 Si los bovinos están infestados con nuches, se recomienda aplicar aceite negro con veneno.
 
       .row.mb-5
-        .col-lg-8.mb-4.mb-lg-0
+        .col-lg-8.mb-4.mb-lg-0(data-aos="fade-left")
           h3.mb-5.titulo-imagen-der Recomendaciones para realizar baños de animales con parásitos externos
           LineaTiempoD.mod-tabs-narver
             .row(numero="1" titulo="Maquina fumigadora")
@@ -101,7 +101,7 @@
               .col-md-12
                   p.mb-0 Al día siguiente revise si las garrapatas están muertas.
 
-        .col-lg-4.col-8.mx-auto.mb-4.mb-lg-0
+        .col-lg-4.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema2/img10.png' alt='Imagen Decorativa')
 
 

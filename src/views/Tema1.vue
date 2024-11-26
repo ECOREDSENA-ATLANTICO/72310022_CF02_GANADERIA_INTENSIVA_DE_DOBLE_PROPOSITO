@@ -5,13 +5,13 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Ganadería intensiva
+      h1(data-aos="fade-right") Ganadería intensiva
       
 
     .row.mb-5
-      .col-md-5.col-10.mx-auto.mb-4.mb-lg-0
+      .col-md-5.col-10.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img05.png' alt='Imagen Decorativa')
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         p.mb-4 Cuando se habla de ganadería intensiva se hace referencia a la producción bovina tanto de leche como de carne en sistemas pequeños donde la carga animal va de 8 a hasta 30 bovinos por hectárea, este sistema de producción se caracteriza porque el ganado no busca su propio alimento, sino que este es suministrado por la persona encargada de la unidad productiva.
         .cajon.color-acento-contenido.p-4
           p.mb-0 Los animales criados bajo este sistema de producción se deben nutrir de manera balanceada garantizándoles buena calidad y cantidad de alimento. La ganancia de peso de un bovino alimentado mediante esta técnica oscila entre 450 a 1550 gr/día.
@@ -21,7 +21,7 @@
 
     .mod-fondo-01
       .row.mod-ventajas.mb-4
-        .col-sm-6.col-lg-4.mb-4.d-flex
+        .col-sm-6.col-lg-4.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-naranja
             p.mod-ventajas-p.mb-0.mod-texto-naranja 01
             .row.justify-content-center.mb-3
@@ -31,7 +31,7 @@
 
             p Se logra mayor ganancia en menos tiempo por la alta productividad.
 
-        .col-sm-6.col-lg-4.mb-4.d-flex
+        .col-sm-6.col-lg-4.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-verde
             p.mod-ventajas-p.mb-0.mod-texto-verde 02
             .row.justify-content-center.mb-3
@@ -41,7 +41,7 @@
 
             p Se obtienen productos de muy buena calidad (leche y carne) y de esta manera puede satisfacer las necesidades de distribución y la demanda a gran escala.
 
-        .col-12.col-sm-6.col-md-12.col-lg-4.mb-4.d-flex
+        .col-12.col-sm-6.col-md-12.col-lg-4.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-naranja
             p.mod-ventajas-p.mb-0.mod-texto-naranja 03
             .row.justify-content-center.mb-3
@@ -54,7 +54,7 @@
 
       h2.mb-5.titulo-imagen-izq Sistemas de pastoreo
 
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img03.jpg')})`}"
         )
@@ -65,7 +65,7 @@
 
 
 
-    .tarjeta.tarjeta--azul.p-4.p-md-5.mb-5.bg01.mod-slider-pastoreo
+    .tarjeta.tarjeta--azul.p-4.p-md-5.mb-5.bg01.mod-slider-pastoreo(data-aos="fade-right")
       SlyderA(tipo="b")
         .row
           .col-12.col-lg-7.mb-4.mb-md-0.row
@@ -133,9 +133,9 @@
 
 
     .row.mb-5.mb-lg-4
-      .col-md-4.col-8.mx-auto
+      .col-md-4.col-8.mx-auto(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img15.png' alt='Imagen Decorativa')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
 
         p.mb-5 En la actualidad la producción de carne de vacuno se hace mediante sistemas de producción intensiva por estabulación, esto implica alimentar los animales con dietas a base de forrajes conservados y cereales; dicha técnica presenta una ventaja muy importante como es la reducción del periodo de cría a menos de un año y un mejor aprovechamiento de las pasturas, pues estas suelen ser conservadas mediante ensilajes; pero cuenta a la vez con una desventaja y es que necesita mucho capital para mano de obra, infraestructura y maquinaria, sin embargo, los gastos requeridos en cuanto a dinero son repartidos en forma uniforme a lo largo del año y en comparación con las utilidades generadas, vale la pena asumirlos:
 
@@ -159,11 +159,11 @@
 
 
       .row.mb-5.mb-lg-0
-        .col-lg-7.mb-4.mb-md-5
+        .col-lg-7.mb-4.mb-md-5(data-aos="fade-left")
           p.mb-5 Para el ganado de doble propósito proveniente del cruce entre Brahman y razas Bos Indicus, se recomienda utilizar cercas de entre 1.6 y 1.8 metros de altura para evitar que los animales se escapen o sufran lesiones. Además de la altura, las cercas deben ser robustas y duraderas, preferiblemente construidas con materiales resistentes como madera tratada, postes metálicos o concreto, dependiendo de las condiciones locales y del presupuesto disponible.
           .cajon.color-acento-contenido.p-4
             p.mb-0 Es crucial que el apretadero, la manga y la rampa cuenten con paredes sólidas, no solo para guiar el movimiento de los animales, sino también para reducir su estrés durante los procesos de manejo. Las paredes sólidas evitan que el ganado vea lo que ocurre afuera, lo que puede contribuir a disminuir la ansiedad y prevenir accidentes, ya que los bovinos tienden a asustarse fácilmente con ruidos o movimientos bruscos.
-        .col-md-5.col-8.mx-auto
+        .col-md-5.col-8.mx-auto(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema1/img16.png' alt='Imagen Decorativa')
       p.mb-5 Si el presupuesto lo permite, se recomienda también incluir paredes sólidas en el callejón de manejo. El callejón es una estructura clave en las instalaciones ganaderas, ya que facilita el traslado de los animales de un área a otra dentro de la finca. Al estar bien diseñado y construido, con suficiente espacio para el paso de los animales, se garantiza una operación más eficiente y segura tanto para los trabajadores como para los bovinos
 
@@ -184,7 +184,7 @@
     .mod-fondo-03
       h2.mb-5.titulo-imagen-izq Técnicas o tratamientos para prevenir enfermedades en la finca ganadera
 
-      img.tarjeta.mb-5(src='@/assets/curso/temas/tema1/img18.jpg', alt='Imagen Decorativa')
+      img.tarjeta.mb-5(data-aos="fade-up")(src='@/assets/curso/temas/tema1/img18.jpg', alt='Imagen Decorativa')
 
       p.mb-5 Es fundamental observar el comportamiento de los bovinos tanto en establos como en praderas, prestando atención a indicadores como la temperatura corporal, la digestión y el estado del pelaje (si se presenta caída, entre otros). Estos aspectos pueden ofrecer señales clave sobre la salud del animal.
 
@@ -199,9 +199,9 @@
 
 
     .row.mb-5
-      .col-lg-4.col-sm-8.col-md-5.mx-auto.mb-4.mb-lg-0
+      .col-lg-4.col-sm-8.col-md-5.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img19.png', alt='Imagen Decorativa')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul mod-ac-narver")
           .row(titulo="Agua")
              p Es esencial garantizar que los bovinos consuman agua fresca y limpia, ya que el agua contaminada puede disminuir la producción y causar enfermedades, afectando la calidad de la leche y la carne. Es crucial contar con suficientes bebederos para que todos los animales puedan acceder al agua, especialmente dado que las necesidades hídricas varían según la edad, condición corporal y estado fisiológico. Los bovinos adultos tienen un 70% de agua en su cuerpo, mientras que los terneros recién nacidos tienen un 90%; su pérdida del 25% puede ser fatal. Se recomienda suministrar agua de 2 a 3 veces al día.
@@ -219,7 +219,7 @@
     .mod-fondo-04
       h3.mb-5.titulo-imagen-der Técnicas para prevenir enfermedades en bovinos
 
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente(data-aos="fade-right")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img20.jpg')})`}"
         )
@@ -291,7 +291,7 @@
         p.mb-5.text-center <strong>Suministro de medicamento</strong>
 
 
-      ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca
+      ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca(data-aos="fade-up")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/img26.png', alt='Imagen Decorativa')
@@ -333,7 +333,7 @@
     h3.mb-5.titulo-imagen-der Vacunación
 
 
-    .row.mod-tarjeta-sobresale.mb-5.p-4.p-md-0(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img28.png')})`}")
+    .row.mod-tarjeta-sobresale.mb-5.p-4.p-md-0(data-aos="fade-up")(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img28.png')})`}")
       .col-6.col-md-2.mx-auto
         figure
           img(src='@/assets/curso/temas/tema1/img27.png', alt='Imagen Decorativa')
@@ -392,10 +392,10 @@
 
 
     .row.mb-5.mod-lista-flecha
-      .col-lg-4.col-md-4.col-8.mx-auto.mb-4.mb-md-3
+      .col-lg-4.col-md-4.col-8.mx-auto.mb-4.mb-md-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img29.png', alt='Imagen Decorativa')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         p.mb-5 Este tipo de suplemento es proporcionado a los bovinos para sustituir las deficiencias de proteínas que tengan los forrajes, estos pueden ser vegetales o animales (se encuentra en la harina de pescado y la carne).
         ul.lista-ul
           li 
@@ -435,7 +435,7 @@
 
 
       .row.mb-4
-        .col-sm-6.col-lg-3.mb-4.d-flex
+        .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-naranja
             .row.justify-content-center.mb-3
               .col-5.col-md-7
@@ -444,7 +444,7 @@
             p.text-center <strong>Resistencia específica (inmunidad)</strong>
             p.text-center.mb-0 Esta resistencia ocurre cuando el animal se vuelve inmune a ciertas enfermedades, puede ser natural o adquirida.
 
-        .col-sm-6.col-lg-3.mb-4.d-flex
+        .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-verde
             .row.justify-content-center.mb-3
               .col-5.col-md-7
@@ -453,7 +453,7 @@
             p.text-center <strong>Inmunidad natural</strong>
             p.text-center.mb-0 Algunas especies adquieren esta inmunidad porque se adaptan muy bien a la zona donde se han desarrollado por generaciones; un ejemplo de ello son las razas criollas existentes en el país, muchas son resistentes a enfermedades y parásitos, y transmiten esa inmunidad a otras generaciones.
 
-        .col-sm-6.col-lg-3.mb-4.d-flex
+        .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-naranja
             .row.justify-content-center.mb-3
               .col-5.col-md-7
@@ -462,7 +462,7 @@
             p.text-center <strong>La inmunidad puede ser activa o pasiva</strong>
             p.text-center.mb-0 La inmunidad activa es la que surge con las vacunaciones, o cuando el animal se enferma y se vuelve resistente a la enfermedad.
 
-        .col-sm-6.col-lg-3.mb-4.d-flex
+        .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-verde
             .row.justify-content-center.mb-3
               .col-5.col-md-7
@@ -476,7 +476,7 @@
       h3.mb-5.titulo-imagen-der Otras medidas que ayudan a prevenir y garantizar la sanidad animal
 
       .row.mb-5.mod-lista-flecha
-        .col-lg-8.mb-md-3
+        .col-lg-8.mb-md-3(data-aos="fade-left")
           ul.lista-ul
             li 
               i.lista-ul__vineta
@@ -496,7 +496,7 @@
             li 
               i.lista-ul__vineta
               | Recolectar muestras de heces para realizar el examen que determina la presencia de parásitos y de sangre, y de esta manera detectar la tuberculosis y la brucelosis.
-        .col-lg-4.col-8.mx-auto
+        .col-lg-4.col-8.mx-auto(data-aos="fade-right")
           figure
             img(src='@/assets/curso/temas/tema1/img35.png', alt='Imagen Decorativa')
 

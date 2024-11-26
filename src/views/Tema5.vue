@@ -5,9 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Diferenciación sexual en bovinos
+      h1(data-aos="fade-right") Diferenciación sexual en bovinos
 
-    .bloque-texto-g.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente
+    .bloque-texto-g.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente(data-aos="fade-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img01.jpg')})`}"
       )
@@ -21,9 +21,9 @@
 
 
     .row.mb-5
-      .col-md-5.col-8.mx-auto.mb-4.mb-lg-0
+      .col-md-5.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema5/img03.png' alt='Imagen Decorativa')
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         p.mb-4 Los bovinos machos nacen con su aparato genital formado y no ocurre ninguna alteración en su funcionamiento hasta que el animal no alcanza una edad determinada donde los testículos cambian de tamaño produciendo la testosterona que está involucrada en la producción de espermatozoides y en el comportamiento del macho para detectar a la hembra cuando está en calor y montarla. 
         
         .cajon.color-acento-contenido.p-4
@@ -100,9 +100,9 @@
 
 
     .row.mb-5
-      .col-md-3.col-6.mx-auto.mb-4.mb-lg-0
+      .col-md-3.col-6.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema5/img05.png' alt='Imagen Decorativa')
-      .col-lg-9
+      .col-lg-9(data-aos="fade-right")
         p.mb-4 La pubertad en una hembra inicia cuando aparece la época de celo, es decir, su primer estro acompañado de la ovulación y la maduración del cuerpo lúteo en los ovarios; este proceso se da más o menos a los catorce a quince meses de edad, pero depende del manejo que se le da a la hembra en cuanto a la alimentación.
         p.mb-4 Los folículos que se encuentran en los ovarios empiezan a producir hormonas (estrógenos), las cuales son las responsables que los genitales se desarrollen con más rapidez, se manifiesta cuando la hembra aumenta de tamaño y empieza a mostrar más aceptación por el macho.
 
@@ -122,7 +122,7 @@
     p.mb-5 Generalmente se suspende si ocurre la fertilización y la gestación (dos meses después del parto o más) dependiendo de las condiciones del manejo del animal. <strong>El ciclo estral de la hembra cuenta con dos fases y una serie de eventos, cada uno de estos se describen a continuación:</strong>
 
 
-    TabsC.mb-5.mod-tabs-gris
+    TabsC.mb-5.mod-tabs-gris(data-aos="fade-left")
       .p-5(titulo="Fase I - Estrogénica")
         .row
           .col-8.col-sm-6.col-lg-6.mx-auto.mb-3
@@ -148,14 +148,14 @@
     h3.mb-5.titulo-imagen-der Condiciones a tener en cuenta para identificar comportamientos
 
     .mb-5
-      img(src='@/assets/curso/temas/tema5/img09.png' alt='Imagen Decorativa').tarjeta
+      img(src='@/assets/curso/temas/tema5/img09.png' alt='Imagen Decorativa').tarjeta(data-aos="fade-right")
 
 
 
     p.mb-5 El animal en esta fase presenta una serie de comportamientos anormales en su desempeño entre ellos se pueden identificar:
 
 
-    .row.mod-tarjetas-numeros-izq.mb-lg-4
+    .row.mod-tarjetas-numeros-izq.mb-lg-4(data-aos="fade-up")
       .col-12.col-md-6.col-xl-4.mb-4.mb-xl-3
         .tarjeta-numerada.color-primario.p-4.mod-ama
           .tarjeta-numerada__numero
@@ -198,7 +198,7 @@
           p
             b Se deja montar, pero no monta (reflejo de inmovilidad).
 
-    .row.col-lg-8.mx-auto
+    .row.col-lg-8.mx-auto(data-aos="fade-up")
       .titulo-sexto.color-acento-contenido.mb-4
         h5 Figura 1.
         span Ciclo estral de la hembra bovina
@@ -227,7 +227,7 @@
     h3.mb-5.titulo-imagen-der Importancia de la detección de calores en una hembra
 
 
-    .bloque-texto-g.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente
+    .bloque-texto-g.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente(data-aos="fade-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img12.jpg')})`}"
       )
@@ -243,7 +243,7 @@
       p.mb-5 Para reconocer las hembras en celo se deben mirar tanto en la mañana como en la tarde, para lo cual se debe llevar un registro de lo observado y tener en cuenta las siguientes recomendaciones:
 
       .row.mb-5
-        .col-lg-8
+        .col-lg-8(data-aos="fade-left")
           SlyderF(columnas="col-lg-6").mod-tarjetas-fondo-blanco
             .tarjeta.p-4
               .row.justify-content-center.mb-3
@@ -287,7 +287,7 @@
               p.text-center.mb-0 <strong>Cambios fisiológicos</strong>
               p.text-center.mb-0 Es necesario que se analice animal por animal para determinar si han ocurrido cambios fisiológicos que determinen el calor de la vaca.
 
-        .col-lg-4.col-6.mx-auto.mb-4.mb-lg-0
+        .col-lg-4.col-6.mx-auto.mb-4.mb-lg-0(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema5/img19.png' alt='Imagen Decorativa')
 
 

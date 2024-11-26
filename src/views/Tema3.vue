@@ -5,9 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Plan de sanidad animal en una finca ganadera doble propósito
+      h1(data-aos="fade-right") Plan de sanidad animal en una finca ganadera doble propósito
 
-    img.tarjeta.mb-5(src='@/assets/curso/temas/tema3/img01.jpg', alt='Imagen Decorativa')
+    img.tarjeta.mb-5(data-aos="fade-up")(src='@/assets/curso/temas/tema3/img01.jpg', alt='Imagen Decorativa')
 
     p.mb-5 Es importante que en la explotación bovina todos los días se revise el ganado para detectar a tiempo si hay animales mal nutridos, enfermos o muertos, y de esta manera realizar un tratamiento oportuno y adecuado, con el fin de evitar que las enfermedades se propaguen por toda la finca enfermando a los animales sanos. Las vacas viejas, las que no se preñan con facilidad o las desnutridas que no se les ve recuperación, es mejor que se destinen para otro fin, ya que son improductivas para el hato.
 
@@ -16,7 +16,7 @@
 
     h2.mb-5.titulo-imagen-izq.tres Formación adecuada del personal
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.mod-derecha-gradiente(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img03.jpg')})`}"
       )
@@ -24,7 +24,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La formación continua del personal en el uso de productos químicos veterinarios asegura procedimientos claros y coherentes para el manejo adecuado y seguro de los animales enfermos:
 
-    TabsA.color-acento-botones.mb-5.mod-tabs-vertical-verde
+    TabsA.color-acento-botones.mb-5.mod-tabs-vertical-verde(data-aos="fade-right")
       .tarjeta.p-4(titulo="Manejo de animales")
         .row
           .col-lg-7.mb-4
@@ -67,19 +67,17 @@
 
     h2.mb-5.titulo-imagen-izq.cuatro Higiene en el ordeño
 
-
-
     .row.mb-5
-      .col-md-5.col-8.mx-auto.mb-4.mb-lg-0
+      .col-md-5.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img09.png' alt='Imagen Decorativa')
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         p.mb-4 En una finca ganadera de doble propósito donde se produce leche, es de suma importancia realizar un buen manejo del ordeño porque los consumidores cada día son más exigentes y requieren productos de buena calidad; por eso todo hato lechero debe tener como propósito principal reducir la contaminación microbiana, química y física a niveles mínimos, en busca de la inocuidad del producto.
         .cajon.color-acento-contenido.p-4
           p.mb-0 La sanidad se debe implantar en toda la cadena productiva, desde que se produce hasta el momento en que se obtiene la leche en el ordeño, con el fin de controlar los posibles puntos críticos que se puedan generar y así garantizar un producto de muy buena calidad. La aplicación del procedimiento adecuado en el ordeño es una herramienta que ayuda a mejorar cada día la producción de leche.
 
 
     .mod-fondo-11
-      .row.mb-5.mod-lista-flecha
+      .row.mb-5.mod-lista-flecha(data-aos="fade-right")
         .col-12.col-lg-8
           p.mb-5 <strong>Los principales aspectos a tener en cuenta en el ordeño son:</strong>
           ul.lista-ul
@@ -98,20 +96,17 @@
             li 
               i.lista-ul__vineta
               | Los operarios deben lavarse las manos antes de iniciar el proceso de ordeño y desinfectarlas con una solución yodada.
-
-        .col-md-4.col-8.mx-auto
+        .col-md-4.col-8.mx-adultos
           figure
             img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen Decorativa')
 
-
-
-      .row.mb-5.mod-lista-flecha.d-flex.sm-flex-column-reverse
+      .row.mb-5.mod-lista-flecha.d-flex.sm-flex-column-reverse(data-aos="fade-left")
 
         .col-lg-5.col-md-5.col-8.mx-auto.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema3/img11.png', alt='Imagen Decorativa')
 
-        .col-12.col-lg-7
+        .col-12.col-lg-7.my-auto
           ul.lista-ul
             li 
               i.lista-ul__vineta
@@ -140,7 +135,7 @@
 
 
     .row.mod-ventajas.dos.mb-4
-      .col-sm-6.col-lg-3.mb-4.d-flex
+      .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
         .tarjeta--boton.p-4.mod-color-naranja
           p.mod-ventajas-p.mb-0.mod-texto-naranja 01
           .row.justify-content-center.mb-3
@@ -150,7 +145,7 @@
 
           p Al observar signos de proximidad del parto, la vaca debe mantenerse en un lugar tranquilo y apartado de otros animales.
 
-      .col-sm-6.col-lg-3.mb-4.d-flex
+      .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
         .tarjeta--boton.p-4.mod-color-verde
           p.mod-ventajas-p.mb-0.mod-texto-verde 02
           .row.justify-content-center.mb-3
@@ -160,7 +155,7 @@
 
           p Las vacas primerizas deben llevarse al lote de ordeño y al corral para que se acostumbren.
 
-      .col-sm-6.col-lg-3.mb-4.d-flex
+      .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
         .tarjeta--boton.p-4.mod-color-naranja
           p.mod-ventajas-p.mb-0.mod-texto-naranja 03
           .row.justify-content-center.mb-3
@@ -170,7 +165,7 @@
 
           p Verificar que su condición corporal sea de 4 en una escala de 1 a 6.
 
-      .col-sm-6.col-lg-3.mb-4.d-flex
+      .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
         .tarjeta--boton.p-4.mod-color-verde
           p.mod-ventajas-p.mb-0.mod-texto-verde 04
           .row.justify-content-center.mb-3
@@ -186,11 +181,11 @@
 
     .row.mb-5.mod-lista-flecha
 
-      .col-md-5.col-8.mx-auto.mb-lg-0.mb-4
+      .col-md-5.col-8.mx-auto.mb-lg-0.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema3/img18.png', alt='Imagen Decorativa')
 
-      .col-12.col-lg-7
+      .col-12.col-lg-7(data-aos="fade-right")
         ul.lista-ul
           li 
             i.lista-ul__vineta
@@ -216,7 +211,7 @@
               
 
       
-    .mod-fondo-12
+    .mod-fondo-12(data-aos="fade-up")
       h2.mb-5.titulo-flecha-izq Manejo de las crías después del parto
 
       p.mb-5 El manejo adecuado del ternero durante su primer día de vida es crucial para asegurar su salud y bienestar. Es importante verificar que respire correctamente y estimular su circulación frotando suavemente su cuerpo. También se deben revisar las mucosas, limpiar el ombligo con yodo y asegurarse de que no haya deformaciones en la boca que impidan el amamantamiento. 
@@ -412,9 +407,9 @@
 
 
     .row.mb-5.mb-lg-4.position-relative
-      .col-lg-5.col-6.mx-auto
+      .col-lg-5.col-6.mx-auto(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img27.png' alt='Imagen Decorativa')
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
 
         LineaTiempoD.mod-tabs-narver
           .row(numero="1" titulo="Madre primer día")
