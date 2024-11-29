@@ -40,6 +40,7 @@
 
       .tabla-a.color-secundario.mb-5.mod-tabla-verde.alt
         table
+          caption Sena (2024)
           thead
             tr
               th Hormona
@@ -131,7 +132,7 @@
           .col-12.col-lg-6.mb-4.mb-md-0
             p <strong>Proestro:</strong> es la fase inicial del ciclo donde el animal se encuentra bajo la influencia de dos hormonas: el folículo estimulante y la luteinizantelas, denominadas hormonas hipofisiarias. En esta fase primordialmente solo se dan cambios internos en las estructuras reproductivas.
             p Se produce por la acción hormonal precedida por el hipotálamo donde se inicia la producción de sustancias que son primordiales para el inicio del ciclo estral. 
-            p <strong>Estro:</strong> En la fase, el folículo de Graaf está formado, provocando cambios en las estructuras reproductivas debido a los estrógenos, como moco rosado, cérvix abierto y edema. La hembra muestra deseo sexual, se inquieta, molesta a otras vacas, levanta la cola, olfatea, muge y se muestra nerviosa. Esta fase dura entre 14 y 18 horas.
+            p <strong>Estro:</strong> eficienten la fase, el folículo de Graaf está formado, provocando cambios en las estructuras reproductivas debido a los estrógenos, como moco rosado, cérvix abierto y edema. La hembra muestra deseo sexual, se inquieta, molesta a otras vacas, levanta la cola, olfatea, muge y se muestra nerviosa. Esta fase dura entre 14 y 18 horas.
 
 
       
@@ -142,7 +143,7 @@
               img(src='@/assets/curso/temas/tema5/img08.png', alt='Imagen Decorativa')
           .col-12.col-lg-6.mb-4.mb-md-0
             p <strong>Metaestro:</strong>  en esta fase inicia la formación del cuerpo lúteo y la hembra rechaza al macho. La hembra bovina es la única especie que presenta la ovulación en el metaestro, esto indica que la ovulación se da horas después de terminados los signos de celo, dicho periodo dura de 14 a 18 horas.
-            p <strong>Diestro:</strong> En esta fase se completa el desarrollo del cuerpo lúteo y el útero de la hembra se prepara para recibir la presencia de un embrión. Se producen cambios fuertes debido a la producción de progesterona, estos son contrarios a lo que suceden en la fase estrogénica (solidificación del moco cervical). Si no hubo gestación permanecerá así hasta el día 16 para la preparación de otro ciclo estral.
+            p <strong>Diestro:</strong> en esta fase se completa el desarrollo del cuerpo lúteo y el útero de la hembra se prepara para recibir la presencia de un embrión. Se producen cambios fuertes debido a la producción de progesterona, estos son contrarios a lo que suceden en la fase estrogénica (solidificación del moco cervical). Si no hubo gestación permanecerá así hasta el día 16 para la preparación de otro ciclo estral.
 
 
     h3.mb-5.titulo-imagen-der Condiciones a tener en cuenta para identificar comportamientos

@@ -12,11 +12,11 @@
     p.mb-5 La reproducción de bovinos de doble propósito requiere un enfoque integral que incluya el control de parásitos, un plan de sanidad animal adecuado y una gestión eficiente de la reproducción, abarcando tanto la monta natural como la inseminación artificial y la diferenciación sexual en los animales. Bienvenido a este componente formativo:
 
     .video
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/woe18G9GlCQ?si=UG5DA98PoiOg6zVe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/woe18G9GlCQ?si=o8Q4g60lveVoquxz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
     .cajon.color-acento-contenido.p-4.mb-5
-      p.mb-0 En esta actividad de aprendizaje se abordan aspectos generales de la reproducción de bovinos de doble propósito, la cual es fundamental para optimizar tanto la producción de leche como de carne. Sus ventajas incluyen un mayor rendimiento económico y la mejora genética del hato. Estrategias como el control sanitario, la inseminación artificial y la monta natural controlada permiten maximizar la eficiencia reproductiva, reducir enfermedades y mejorar la calidad del ganado.
+      p.mb-0 En este componente formativo se abordan aspectos generales de la reproducción de bovinos de doble propósito, la cual es fundamental para optimizar tanto la producción de leche como de carne. Sus ventajas incluyen un mayor rendimiento económico y la mejora genética del hato. Estrategias como el control sanitario, la inseminación artificial y la monta natural controlada permiten maximizar la eficiencia reproductiva, reducir enfermedades y mejorar la calidad del ganado.
 
 </template>
 

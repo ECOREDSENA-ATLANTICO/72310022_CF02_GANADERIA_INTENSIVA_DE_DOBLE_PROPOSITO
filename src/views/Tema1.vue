@@ -348,6 +348,7 @@
 
     .tabla-a.color-secundario.mb-5.mod-tabla-verde
       table
+        caption Sena (2024)
         thead
           tr
             th Enfermedad
@@ -375,17 +376,11 @@
             td Repetir cada año o cada 6 meses en zona endémica.
             td 5 ml - SC depende del producto
           tr
-            td 
+            td Leptospirosis
             td 
             td A partir de los 3 a 4 meses
             td Repetir cada año
             td 5 ml - SC depende del producto
-          tr
-            td Leptospirosis
-            td 
-            td 
-            td 
-            td 
 
 
     h2.mb-5.titulo-flecha-izq Recomendaciones para la correcta aplicación de las vacunas:

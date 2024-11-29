@@ -122,17 +122,17 @@ export default {
   },
   complementario: [
     {
-      tema: '4. Reproducción en bovinos',
+      tema: 'Reproducción en bovinos',
       referencia: 'TvAgro (2023). [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=pIKKpHQ7AL0',
     },
     {
-      tema: '6. Monta natural e inseminación artificial',
+      tema: 'Monta natural e inseminación artificial',
       referencia: 'Contexto Ganaderos (2015)',
       tipo: 'Página <em>web</em>',
       link:
-        'https://www.contextoganadero.com/internacional/8-cualidades-que-usted-debe-saber-sobre-el-semen-del-toro-ideal ',
+        'https://www.contextoganadero.com/internacional/8-cualidades-que-usted-debe-saber-sobre-el-semen-del-toro-ideal',
     },
   ],
   glosario: [
@@ -164,7 +164,7 @@ export default {
     {
       termino: 'Monta natural',
       significado:
-        'Definimétodo de reproducción en el cual un toro se monta a una vaca de manera natural para la fertilización, sin intervención tecnológica en el proceso.ción',
+        'método de reproducción en el cual un toro se monta a una vaca de manera natural para la fertilización, sin intervención tecnológica en el proceso.',
     },
     {
       termino: 'Reproducción en bovinos',
@@ -174,7 +174,7 @@ export default {
     {
       termino: 'Sistema de control de parásitos:',
       significado:
-        'Definicconjunto de estrategias y tratamientos para prevenir y eliminar parásitos internos y externos en el ganado, protegiendo así la salud animal y la productividad del sistema ganadero.ión',
+        'conjunto de estrategias y tratamientos para prevenir y eliminar parásitos internos y externos en el ganado, protegiendo así la salud animal y la productividad del sistema ganadero.',
     },
   ],
   referencias: [

@@ -214,10 +214,10 @@
     .mod-fondo-12(data-aos="fade-up")
       h2.mb-5.titulo-flecha-izq Manejo de las crías después del parto
 
-      p.mb-5 El manejo adecuado del ternero durante su primer día de vida es crucial para asegurar su salud y bienestar. Es importante verificar que respire correctamente y estimular su circulación frotando suavemente su cuerpo. También se deben revisar las mucosas, limpiar el ombligo con yodo y asegurarse de que no haya deformaciones en la boca que impidan el amamantamiento. 
+      p.mb-5 El manejo adecuado del ternero durante su primer día de vida es crucial para asegurar su salud y bienestar. Es importante verificar que respire correctamente y estimular su circulación frotando suavemente su cuerpo. También se deben revisar las mucosas, limpiar el ombligo con yodo y asegurarse de que no haya deformaciones en la boca que impidan el amamantamiento. A continuación, lo invitamos a profundizar más en los cuidados necesarios para las sus crías: 
 
-      .row.mod-centrado-dorado
-        p.mb-5.text-center <strong>A continuación, lo invitamos a profundizar más en los cuidados necesarios para las sus crías:</strong>
+      //- .row.mod-centrado-dorado
+      //-   p.mb-5.text-center <strong>A continuación, lo invitamos a profundizar más en los cuidados necesarios para las sus crías:</strong>
 
 
       .tarjeta.tarjeta--azul.p-4.p-md-5.mb-5.bg01.mod-slider-pastoreo

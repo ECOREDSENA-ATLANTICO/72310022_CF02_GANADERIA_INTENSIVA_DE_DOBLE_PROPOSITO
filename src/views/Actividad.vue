@@ -14,8 +14,9 @@ export default {
   data: () => ({
     cuestionario: {
       tema: 'Reproducción en bovinos de doble propósito',
-      titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      titulo: 'Reproducción bovina de doble propósito.',
+      introduccion:
+        '<b> Objetivo:</b> Validar el conocimiento adquirido sobre la reproducción bovina de doble propósito en Colombia.',
       barajarPreguntas: true,
       preguntas: [
         {
