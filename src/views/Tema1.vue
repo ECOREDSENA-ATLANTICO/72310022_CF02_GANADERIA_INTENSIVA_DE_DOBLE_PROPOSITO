@@ -9,7 +9,7 @@
       
 
     .row.mb-5
-      .col-md-5.col-10.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-lg-5.col-md-6.mx-auto.mb-4.mb-lg-3(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img05.png' alt='Imagen Decorativa')
       .col-lg-7(data-aos="fade-right")
         p.mb-4 Cuando se habla de ganadería intensiva se hace referencia a la producción bovina tanto de leche como de carne en sistemas pequeños donde la carga animal va de 8 a hasta 30 bovinos por hectárea, este sistema de producción se caracteriza porque el ganado no busca su propio alimento, sino que este es suministrado por la persona encargada de la unidad productiva.
@@ -41,7 +41,7 @@
 
             p Se obtienen productos de muy buena calidad (leche y carne) y de esta manera puede satisfacer las necesidades de distribución y la demanda a gran escala.
 
-        .col-12.col-sm-6.col-md-12.col-lg-4.mb-4.d-flex(data-aos="fade-up")
+        .col-sm-6.col-lg-4.mb-4.d-flex.mx-auto(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-naranja
             p.mod-ventajas-p.mb-0.mod-texto-naranja 03
             .row.justify-content-center.mb-3
@@ -68,38 +68,33 @@
     .tarjeta.tarjeta--azul.p-4.p-md-5.mb-5.bg01.mod-slider-pastoreo(data-aos="fade-right")
       SlyderA(tipo="b")
         .row
-          .col-12.col-lg-7.mb-4.mb-md-0.row
+          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto
             h3 Pastoreo rotacional intensivo con cargas altas
             p Consiste en utilizar terrenos no muy grandes los cuales son divididos en potreros pequeños y de igual tamaño, a estos se les introduce una alta densidad de ganado que oscila entre 10 a 15 animales por hectárea y son utilizados por 3 días con periodos de descanso de 24 días, esto se hace para que las pasturas crezcan de nuevo.
             p Es recomendable que después del pastoreo cada lote reciba fertilización con nitrógeno y con algunos correctivos, por tal razón, los bovinos son llevados a otro lugar mientras se le suministra fertilizante y riego para recuperarlo; una desventaja de este sistema es el alto costo de mantenimiento y establecimiento por la gran demande de fertilidad natural, clima y topografía.
-
-          .col.col-lg-5.col-8.mx-auto
+          .col.col-md-7.col-8.mx-auto.col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen Decorativa')
               
 
-        
-        
         .row
-          .col-12.col-lg-7.mb-4.mb-md-0.row
+          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto
             h3 Estabulado (confinamiento)
             p En este sistema permanecen confinados y se utilizan pasturas de alta calidad que son suministradas al animal picadas o en ensilajes, mediante esta técnica se aprovechan más los forrajes porque no hay pérdidas por pisoteo ni existe contaminación por las heces del animal, lo cual ayuda a que haya una alta capacidad de la carga, esto se ve reflejado en el aumento de peso diario porque el ganado no gasta energía buscando alimento. 
             p En estabulación se suprime la selectividad del animal al buscar alimento, entonces se hace necesario reemplazarlo por suplementos y forrajes de muy buena calidad proteica.
 
-          .col.col-lg-5.col-8.mx-auto
+          .col.col-md-7.col-8.mx-auto.col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen Decorativa')
               
 
-
-
         .row
-          .col-12.col-lg-7.mb-4.mb-md-0.row
+          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto
             h3 Semiestabulación
             p Este sistema es intermedio entre el pastoreo rotacional intensivo y el estabulado, los bovinos permanecen la mayor parte del tiempo en confinamiento con alimento, minerales y agua a voluntad, pero se llevan a que pastoreen en rotación durante algunas horas al día, con el fin de que completen sus requerimientos nutricionales y ejerciten los músculos. 
             p Mediante este sistema se hace un mejor manejo del ganado, se disminuye la pérdida de forraje por pisoteo y hay un mejor aprovechamiento del estiércol que se puede utilizar para hacer abonos compostados que son empleados en la unidad productiva como fertilizantes para los cultivos y las praderas.
 
-          .col.col-lg-5.col-8.mx-auto
+          .col.col-md-7.col-8.mx-auto.col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen Decorativa')
               
@@ -133,10 +128,9 @@
 
 
     .row.mb-5.mb-lg-4
-      .col-md-4.col-8.mx-auto(data-aos="fade-left")
+      .col-lg-4.col-sm-6.col-6.mx-auto(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img15.png' alt='Imagen Decorativa')
-      .col-lg-8(data-aos="fade-right")
-
+      .col-lg-8.col-sm-12.col-12(data-aos="fade-right")
         p.mb-5 En la actualidad la producción de carne de vacuno se hace mediante sistemas de producción intensiva por estabulación, esto implica alimentar los animales con dietas a base de forrajes conservados y cereales; dicha técnica presenta una ventaja muy importante como es la reducción del periodo de cría a menos de un año y un mejor aprovechamiento de las pasturas, pues estas suelen ser conservadas mediante ensilajes; pero cuenta a la vez con una desventaja y es que necesita mucho capital para mano de obra, infraestructura y maquinaria, sin embargo, los gastos requeridos en cuanto a dinero son repartidos en forma uniforme a lo largo del año y en comparación con las utilidades generadas, vale la pena asumirlos:
 
         LineaTiempoD.mod-tabs-narver
@@ -334,10 +328,10 @@
 
 
     .row.mod-tarjeta-sobresale.mb-5.p-4.p-md-0(data-aos="fade-up")(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img28.png')})`}")
-      .col-6.col-md-2.mx-auto
+      .col-6.col-md-3.mx-auto
         figure
           img(src='@/assets/curso/temas/tema1/img27.png', alt='Imagen Decorativa')
-      .col-md-10
+      .col-md-9
         p.mb-0 Para proteger el ganado de enfermedades debe inmunizarlo de acuerdo con el plan de vacunación establecido por el veterinario, esto evitará enfermedades en los bovinos. También es importante conservar la cadena de frío de las vacunas y no envasarlas.
 
 

@@ -361,13 +361,22 @@ a.boton span, a.boton i
     margin: auto
     height: auto
 
-@media (max-width: 768px)
-  .mod-tarjeta-sobresale img
-    position: relative
-    top: auto
-    left: auto
-    margin: auto
-    height: auto
+
+@media (max-width: 767px)
+  .mod-tarjeta-sobresale 
+    img
+      position: relative
+      top: auto
+      left: auto
+      margin: auto
+      height: auto
+      
+@media (min-width: 768px) and (max-width: 1024px)
+  .mod-tarjeta-sobresale
+    img 
+      left: 10px
+
+
 
   .mod-tarjetas-fondo-blanco .slyder-f__btn 
     width: 8%
@@ -516,7 +525,8 @@ a.boton span, a.boton i
   &::before
     background: #748578 
 
-@media (max-width: 768px)
+  
+@media (min-width: 768px) and (max-width: 1024px)
   .sm-flex-column-reverse
     flex-direction: column-reverse !important
   .tarjeta--boton.mod-color-naranja

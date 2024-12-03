@@ -96,7 +96,7 @@
             li 
               i.lista-ul__vineta
               | Los operarios deben lavarse las manos antes de iniciar el proceso de ordeño y desinfectarlas con una solución yodada.
-        .col-md-4.col-8.mx-adultos
+        .col-md-4.col-8.mx-auto
           figure
             img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen Decorativa')
 

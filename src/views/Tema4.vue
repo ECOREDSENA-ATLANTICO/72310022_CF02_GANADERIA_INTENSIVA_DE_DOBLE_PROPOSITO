@@ -72,7 +72,7 @@
     p.mb-5 En el sistema ganadero bovino, es esencial identificar los órganos sexuales del macho reproductor, su funcionamiento y las características fenotípicas deseables para la reproducción. El aparato reproductivo externo incluye pene, prepucio y testículos; el interno está compuesto por tubos seminíferos, epidídimo, ducto deferente, vesículas seminales, próstata y glándulas bulbouretrales. A continuación, se describen sus funciones:
   
 
-    ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca(data-aos="fade-up")
+    ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema4/img05.png', alt='Imagen Decorativa')

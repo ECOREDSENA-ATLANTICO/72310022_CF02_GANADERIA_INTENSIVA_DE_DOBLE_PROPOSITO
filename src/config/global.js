@@ -277,13 +277,13 @@ export default {
       autores: [
         {
           nombre: 'Antonio Vecino Valer',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador <em>web</em>',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
-          cargo: 'Desarrollador full stack',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
