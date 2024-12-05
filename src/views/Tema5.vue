@@ -20,10 +20,10 @@
     h2.mb-5.titulo-imagen-izq.diez Pubertad y madurez sexual en el macho
 
 
-    .row.mb-5
-      .col-md-5.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
+    .row.mb-5.align-items-center
+      .col-5.col-xl-5.mx-auto.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema5/img03.png' alt='Imagen Decorativa')
-      .col-lg-7(data-aos="fade-right")
+      .col-12.col-xl-7(data-aos="fade-right")
         p.mb-4 Los bovinos machos nacen con su aparato genital formado y no ocurre ninguna alteración en su funcionamiento hasta que el animal no alcanza una edad determinada donde los testículos cambian de tamaño produciendo la testosterona que está involucrada en la producción de espermatozoides y en el comportamiento del macho para detectar a la hembra cuando está en calor y montarla. 
         
         .cajon.color-acento-contenido.p-4
@@ -100,10 +100,10 @@
     h2.mb-5.titulo-imagen-izq.once Pubertad y madurez sexual de las hembras
 
 
-    .row.mb-5
-      .col-md-3.col-6.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
+    .row.mb-5.align-items-center
+      .col-3.col-lg-3.mx-auto.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema5/img05.png' alt='Imagen Decorativa')
-      .col-lg-9(data-aos="fade-right")
+      .col-12.col-lg-9(data-aos="fade-right")
         p.mb-4 La pubertad en una hembra inicia cuando aparece la época de celo, es decir, su primer estro acompañado de la ovulación y la maduración del cuerpo lúteo en los ovarios; este proceso se da más o menos a los catorce a quince meses de edad, pero depende del manejo que se le da a la hembra en cuanto a la alimentación.
         p.mb-4 Los folículos que se encuentran en los ovarios empiezan a producir hormonas (estrógenos), las cuales son las responsables que los genitales se desarrollen con más rapidez, se manifiesta cuando la hembra aumenta de tamaño y empieza a mostrar más aceptación por el macho.
 
@@ -126,22 +126,21 @@
     TabsC.mb-5.mod-tabs-gris(data-aos="fade-left")
       .p-5(titulo="Fase I - Estrogénica")
         .row
-          .col-8.col-sm-6.col-lg-6.mx-auto.mb-3
+          .col-12.col-sm-8.col-md-5.col-xl-5.mx-auto.mb-3
             figure
               img(src='@/assets/curso/temas/tema5/img07.png', alt='Imagen Decorativa')
-          .col-12.col-lg-6.mb-4.mb-md-0
+          .col-12.col-xl-7.mb-4.mb-md-0
             p <strong>Proestro:</strong> es la fase inicial del ciclo donde el animal se encuentra bajo la influencia de dos hormonas: el folículo estimulante y la luteinizantelas, denominadas hormonas hipofisiarias. En esta fase primordialmente solo se dan cambios internos en las estructuras reproductivas.
             p Se produce por la acción hormonal precedida por el hipotálamo donde se inicia la producción de sustancias que son primordiales para el inicio del ciclo estral. 
             p <strong>Estro:</strong> eficienten la fase, el folículo de Graaf está formado, provocando cambios en las estructuras reproductivas debido a los estrógenos, como moco rosado, cérvix abierto y edema. La hembra muestra deseo sexual, se inquieta, molesta a otras vacas, levanta la cola, olfatea, muge y se muestra nerviosa. Esta fase dura entre 14 y 18 horas.
 
-
       
       .p-5(titulo="Fase II - Progesterónica")
         .row
-          .col-8.col-sm-6.col-lg-6.mx-auto.mb-3
+          .col-12.col-sm-8.col-md-5.col-xl-5.mx-auto.mb-3
             figure
               img(src='@/assets/curso/temas/tema5/img08.png', alt='Imagen Decorativa')
-          .col-12.col-lg-6.mb-4.mb-md-0
+          .col-12.col-xl-7.mb-4.mb-md-0
             p <strong>Metaestro:</strong>  en esta fase inicia la formación del cuerpo lúteo y la hembra rechaza al macho. La hembra bovina es la única especie que presenta la ovulación en el metaestro, esto indica que la ovulación se da horas después de terminados los signos de celo, dicho periodo dura de 14 a 18 horas.
             p <strong>Diestro:</strong> en esta fase se completa el desarrollo del cuerpo lúteo y el útero de la hembra se prepara para recibir la presencia de un embrión. Se producen cambios fuertes debido a la producción de progesterona, estos son contrarios a lo que suceden en la fase estrogénica (solidificación del moco cervical). Si no hubo gestación permanecerá así hasta el día 16 para la preparación de otro ciclo estral.
 

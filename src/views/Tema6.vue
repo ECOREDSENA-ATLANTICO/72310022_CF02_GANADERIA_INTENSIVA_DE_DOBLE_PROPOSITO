@@ -45,7 +45,7 @@
 
     h2.mb-3.titulo-flecha-izq Ventajas de la inseminación artificial
     .row.mb-5.mod-lista-flecha
-      .col-12.col-lg-7(data-aos="fade-left")
+      .col-12.col-xl-7.col-lg-12(data-aos="fade-left")
         ul.lista-ul
           li 
             i.lista-ul__vineta
@@ -66,7 +66,7 @@
             i.lista-ul__vineta
             | La inseminación artificial ayuda a mejorar la producción.
 
-      .col-8.col-lg-5.col-8.mx-auto(data-aos="fade-right")
+      .col-8.col-lg-5.col-xl-5.mx-auto(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema6/img04.png', alt='Imagen Decorativa')
     .mod-fondo-14
@@ -74,10 +74,10 @@
         h2.mb-3.titulo-flecha-izq Recomendaciones para implementar un plan de inseminación artificial
         p.mb-5 En la inseminación artificial no se debe improvisar porque se puede fracasar en la producción bovina al no tener conocimientos acerca del tema, por lo cual se recomienda para empezar a utilizar esta metodología que haya un conocimiento previo y que tenga una buena planeación con miras en mejorar la calidad genética del hato y la productividad.
         
-        .cajon.color-acento-contenido.p-4.mb-5
+        .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 Para implementar de manera exitosa un programa de inseminación artificial en la finca, se debe verificar lo siguiente:
       
-      .row.mb-5
+      .row.mb-5.align-items-center
           .col-lg-4.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema6/img05.png' alt='Imagen Decorativa')
           .col-lg-8(data-aos="fade-right")
@@ -155,7 +155,7 @@
       figcaption Nota. SENA
     
     .mod-fondo-15
-      .row.pb-5
+      .row.pb-5.align-items-center
         .col-md-4.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema6/img17.png' alt='Imagen Decorativa')
         .col-lg-8(data-aos="fade-right")

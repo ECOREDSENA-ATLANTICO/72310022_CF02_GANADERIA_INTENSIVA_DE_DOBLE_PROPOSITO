@@ -68,16 +68,16 @@
     h2.mb-5.titulo-imagen-izq.cuatro Higiene en el ordeño
 
     .row.mb-5
-      .col-md-5.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-8.col-md-4.col-xl-5.mx-auto.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img09.png' alt='Imagen Decorativa')
-      .col-lg-7(data-aos="fade-right")
+      .col-12.col-md-12.col-xl-7(data-aos="fade-right")
         p.mb-4 En una finca ganadera de doble propósito donde se produce leche, es de suma importancia realizar un buen manejo del ordeño porque los consumidores cada día son más exigentes y requieren productos de buena calidad; por eso todo hato lechero debe tener como propósito principal reducir la contaminación microbiana, química y física a niveles mínimos, en busca de la inocuidad del producto.
         .cajon.color-acento-contenido.p-4
           p.mb-0 La sanidad se debe implantar en toda la cadena productiva, desde que se produce hasta el momento en que se obtiene la leche en el ordeño, con el fin de controlar los posibles puntos críticos que se puedan generar y así garantizar un producto de muy buena calidad. La aplicación del procedimiento adecuado en el ordeño es una herramienta que ayuda a mejorar cada día la producción de leche.
 
 
     .mod-fondo-11
-      .row.mb-5.mod-lista-flecha(data-aos="fade-right")
+      .row.mb-5.mod-lista-flecha.align-items-center(data-aos="fade-right")
         .col-12.col-lg-8
           p.mb-5 <strong>Los principales aspectos a tener en cuenta en el ordeño son:</strong>
           ul.lista-ul
@@ -100,24 +100,23 @@
           figure
             img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen Decorativa')
 
-      .row.mb-5.mod-lista-flecha.d-flex.sm-flex-column-reverse(data-aos="fade-left")
+      .row.mb-5.mod-lista-flecha.sm-flex-column-reverse.align-items-center(data-aos="fade-left")
 
-        .col-lg-5.col-md-5.col-8.mx-auto.mb-lg-0.mb-4
+        .col-md-4.col-8.mx-auto 
           figure
             img(src='@/assets/curso/temas/tema3/img11.png', alt='Imagen Decorativa')
-
-        .col-12.col-lg-7.my-auto
+        .col-12.col-lg-8
           ul.lista-ul
-            li 
+            li
               i.lista-ul__vineta
               | Los primeros chorros del ordeño se deben eliminar.
-            li 
+            li
               i.lista-ul__vineta
               | Si en la finca se utilizan ordeñadores mecánicos, asegúrese que estén limpios y bien higienizados antes y después del ordeño.
-            li 
+            li
               i.lista-ul__vineta
               | Cerciórese que el ordeño se realiza bajo condiciones de higiene y buena manipulación.
-            li 
+            li
               i.lista-ul__vineta
               | Asegúrese que a la leche se le realiza un buen manejo después del ordeño y se somete a temperatura de frío bajo refrigeración.
               
@@ -179,7 +178,7 @@
 
     h3.mb-5.titulo-imagen-der Síntomas de las vacas próximas a parir
 
-    .row.mb-5.mod-lista-flecha
+    .row.mb-5.mod-lista-flecha.align-items-center
 
       .col-md-5.col-8.mx-auto.mb-lg-0.mb-4(data-aos="fade-left")
         figure

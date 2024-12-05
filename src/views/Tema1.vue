@@ -8,7 +8,7 @@
       h1(data-aos="fade-right") Ganadería intensiva
       
 
-    .row.mb-5
+    .row.mb-5.align-items-center
       .col-lg-5.col-md-6.mx-auto.mb-4.mb-lg-3(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img05.png' alt='Imagen Decorativa')
       .col-lg-7(data-aos="fade-right")
@@ -68,33 +68,33 @@
     .tarjeta.tarjeta--azul.p-4.p-md-5.mb-5.bg01.mod-slider-pastoreo(data-aos="fade-right")
       SlyderA(tipo="b")
         .row
-          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto
+          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto.col-lg-8
             h3 Pastoreo rotacional intensivo con cargas altas
             p Consiste en utilizar terrenos no muy grandes los cuales son divididos en potreros pequeños y de igual tamaño, a estos se les introduce una alta densidad de ganado que oscila entre 10 a 15 animales por hectárea y son utilizados por 3 días con periodos de descanso de 24 días, esto se hace para que las pasturas crezcan de nuevo.
             p Es recomendable que después del pastoreo cada lote reciba fertilización con nitrógeno y con algunos correctivos, por tal razón, los bovinos son llevados a otro lugar mientras se le suministra fertilizante y riego para recuperarlo; una desventaja de este sistema es el alto costo de mantenimiento y establecimiento por la gran demande de fertilidad natural, clima y topografía.
-          .col.col-md-7.col-8.mx-auto.col-lg-6
+          .col.col-md-7.col-8.mx-auto.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen Decorativa')
               
 
         .row
-          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto
+          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto.col-lg-8
             h3 Estabulado (confinamiento)
             p En este sistema permanecen confinados y se utilizan pasturas de alta calidad que son suministradas al animal picadas o en ensilajes, mediante esta técnica se aprovechan más los forrajes porque no hay pérdidas por pisoteo ni existe contaminación por las heces del animal, lo cual ayuda a que haya una alta capacidad de la carga, esto se ve reflejado en el aumento de peso diario porque el ganado no gasta energía buscando alimento. 
             p En estabulación se suprime la selectividad del animal al buscar alimento, entonces se hace necesario reemplazarlo por suplementos y forrajes de muy buena calidad proteica.
 
-          .col.col-md-7.col-8.mx-auto.col-lg-6
+          .col.col-md-7.col-8.mx-auto.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen Decorativa')
               
 
         .row
-          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto
+          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto.col-lg-8
             h3 Semiestabulación
             p Este sistema es intermedio entre el pastoreo rotacional intensivo y el estabulado, los bovinos permanecen la mayor parte del tiempo en confinamiento con alimento, minerales y agua a voluntad, pero se llevan a que pastoreen en rotación durante algunas horas al día, con el fin de que completen sus requerimientos nutricionales y ejerciten los músculos. 
             p Mediante este sistema se hace un mejor manejo del ganado, se disminuye la pérdida de forraje por pisoteo y hay un mejor aprovechamiento del estiércol que se puede utilizar para hacer abonos compostados que son empleados en la unidad productiva como fertilizantes para los cultivos y las praderas.
 
-          .col.col-md-7.col-8.mx-auto.col-lg-6
+          .col.col-md-7.col-8.mx-auto.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen Decorativa')
               
@@ -128,9 +128,9 @@
 
 
     .row.mb-5.mb-lg-4
-      .col-lg-4.col-sm-6.col-6.mx-auto(data-aos="fade-left")
+      .col-xl-4.col-sm-4.col-6.mx-auto(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img15.png' alt='Imagen Decorativa')
-      .col-lg-8.col-sm-12.col-12(data-aos="fade-right")
+      .col-xl-8.col-sm-12.col-12(data-aos="fade-right")
         p.mb-5 En la actualidad la producción de carne de vacuno se hace mediante sistemas de producción intensiva por estabulación, esto implica alimentar los animales con dietas a base de forrajes conservados y cereales; dicha técnica presenta una ventaja muy importante como es la reducción del periodo de cría a menos de un año y un mejor aprovechamiento de las pasturas, pues estas suelen ser conservadas mediante ensilajes; pero cuenta a la vez con una desventaja y es que necesita mucho capital para mano de obra, infraestructura y maquinaria, sin embargo, los gastos requeridos en cuanto a dinero son repartidos en forma uniforme a lo largo del año y en comparación con las utilidades generadas, vale la pena asumirlos:
 
         LineaTiempoD.mod-tabs-narver
@@ -152,7 +152,7 @@
       h3.mb-5.titulo-imagen-der Recomendaciones para la construcción de instalaciones de manejo bovino
 
 
-      .row.mb-5.mb-lg-0
+      .row.mb-5.mb-lg-0.align-items-center
         .col-lg-7.mb-4.mb-md-5(data-aos="fade-left")
           p.mb-5 Para el ganado de doble propósito proveniente del cruce entre Brahman y razas Bos Indicus, se recomienda utilizar cercas de entre 1.6 y 1.8 metros de altura para evitar que los animales se escapen o sufran lesiones. Además de la altura, las cercas deben ser robustas y duraderas, preferiblemente construidas con materiales resistentes como madera tratada, postes metálicos o concreto, dependiendo de las condiciones locales y del presupuesto disponible.
           .cajon.color-acento-contenido.p-4
@@ -225,7 +225,7 @@
 
       TabsC.mb-5.mod-tabs-gris
         .p-5(titulo="Salud del animal")
-          .row
+          .row.align-items-center
             .col-lg-6.col-md-12.mb-4.mb-md-0
               h4 Salud del animal
               p El manejo sanitario del ganado doble propósito incluye una serie de acciones que garantizan la salud del animal y la inocuidad de la leche y la carne. Los mecanismos utilizados para la prevención de enfermedades, administración y prescripción de medicamentos y tratamientos se deben realizar con responsabilidad y ética por parte del personal encargado del hato.
@@ -234,7 +234,7 @@
                 img(src='@/assets/curso/temas/tema1/img21.png', alt='Imagen Decorativa')
         
         .p-5(titulo="Veterinario")
-          .row
+          .row.align-items-center
             .col-lg-6.col-md-12.mb-4.mb-md-0
               h4 Veterinario
               p El sistema de producción ganadera contará con personal profesional (veterinario) que se encargue de diagnosticar el estado de salud del ganado y las posibles enfermedades que estos pueden padecer; dicho profesional dará recomendaciones técnicas a los empleados acerca de los medicamentos que se le deben suministrar a los bovinos en caso de estar enfermos y la dieta que deben llevar los animales sanos y enfermos.
@@ -244,7 +244,7 @@
                 img(src='@/assets/curso/temas/tema1/img22.png', alt='Imagen Decorativa')
 
         .p-5(titulo="Control del ganado")
-          .row
+          .row.align-items-center
             .col-lg-6.col-md-12.mb-4.mb-md-0
               h4 Control del ganado
               p En las fincas ganaderas de doble propósito se debe llevar un control de ingreso y de salida de los animales para evitar la propagación de enfermedades entre explotaciones ganaderas.
@@ -254,7 +254,7 @@
                 img(src='@/assets/curso/temas/tema1/img23.png', alt='Imagen Decorativa')
 
         .p-5(titulo="Chequeo y vigilancia")
-          .row
+          .row.align-items-center
             .col-lg-6.col-md-12.mb-4.mb-md-0
               h4 Chequeo y vigilancia
               p Los bovinos recién introducidos en la finca ganadera se deben aislar para realizarles un respectivo chequeo y vigilancia, con el propósito de determinar posibles enfermedades o parásitos; esto se hace para disminuir el riesgo sanitario.
@@ -264,7 +264,7 @@
 
 
         .p-5(titulo="Controles periódicos")
-          .row
+          .row.align-items-center
             .col-lg-6.col-md-12.mb-4.mb-md-0
               h4 Controles periódicos
               p Si en una explotación ganadera hay animales enfermos, estos se deben aislar del lote, identificarlos individualmente y realizarles controles periódicos por el profesional asignado.
@@ -380,7 +380,7 @@
     h2.mb-5.titulo-flecha-izq Recomendaciones para la correcta aplicación de las vacunas:
 
 
-    .row.mb-5.mod-lista-flecha
+    .row.mb-5.mod-lista-flecha.align-items-center
       .col-lg-4.col-md-4.col-8.mx-auto.mb-4.mb-md-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img29.png', alt='Imagen Decorativa')
@@ -424,7 +424,7 @@
 
 
       .row.mb-4
-        .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
+        .col-sm-6.col-lg-6.col-xl-3.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-naranja
             .row.justify-content-center.mb-3
               .col-5.col-md-7
@@ -433,7 +433,7 @@
             p.text-center <strong>Resistencia específica (inmunidad)</strong>
             p.text-center.mb-0 Esta resistencia ocurre cuando el animal se vuelve inmune a ciertas enfermedades, puede ser natural o adquirida.
 
-        .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
+        .col-sm-6.col-lg-6.col-xl-3.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-verde
             .row.justify-content-center.mb-3
               .col-5.col-md-7
@@ -442,7 +442,7 @@
             p.text-center <strong>Inmunidad natural</strong>
             p.text-center.mb-0 Algunas especies adquieren esta inmunidad porque se adaptan muy bien a la zona donde se han desarrollado por generaciones; un ejemplo de ello son las razas criollas existentes en el país, muchas son resistentes a enfermedades y parásitos, y transmiten esa inmunidad a otras generaciones.
 
-        .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
+        .col-sm-6.col-lg-6.col-xl-3.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-naranja
             .row.justify-content-center.mb-3
               .col-5.col-md-7
@@ -451,7 +451,7 @@
             p.text-center <strong>La inmunidad puede ser activa o pasiva</strong>
             p.text-center.mb-0 La inmunidad activa es la que surge con las vacunaciones, o cuando el animal se enferma y se vuelve resistente a la enfermedad.
 
-        .col-sm-6.col-lg-3.mb-4.d-flex(data-aos="fade-up")
+        .col-sm-6.col-lg-6.col-xl-3.mb-4.d-flex(data-aos="fade-up")
           .tarjeta--boton.p-4.mod-color-verde
             .row.justify-content-center.mb-3
               .col-5.col-md-7
@@ -464,7 +464,7 @@
     .mod-fondo-07
       h3.mb-5.titulo-imagen-der Otras medidas que ayudan a prevenir y garantizar la sanidad animal
 
-      .row.mb-5.mod-lista-flecha
+      .row.mb-5.mod-lista-flecha.align-items-center
         .col-lg-8.mb-md-3(data-aos="fade-left")
           ul.lista-ul
             li 

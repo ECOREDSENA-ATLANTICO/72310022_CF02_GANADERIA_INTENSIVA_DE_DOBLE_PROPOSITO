@@ -17,7 +17,7 @@
 
 
     .mod-fondo-09
-      .row.mb-5
+      .row.mb-5.align-items-center
         .col-lg-8(data-aos="fade-left")
           SlyderF(columnas="col-lg-6").mod-tarjetas-fondo-blanco
             .tarjeta.p-4
@@ -68,7 +68,7 @@
 
     h2.mb-5.titulo-imagen-izq.dos Sistema de control externo de garrapatas y moscas
     .mod-fondo-10
-      .row.mb-5
+      .row.mb-5.align-items-center
         .col-lg-5.col-8.mx-auto.mb-4.mb-md-4(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema2/img09.png' alt='Imagen Decorativa')
         .col-lg-7(data-aos="fade-left")
@@ -77,7 +77,7 @@
             p.mb-0 El mecanismo más utilizado para eliminar los parásitos externos son los baños, esto se hace dependiendo del tipo de plaga o mosca; por ejemplo, si el animal tiene garrapatas especie Amblyomma se debe bañar cada 15 días, pero si las garrapatas son de tipo Boophylusmicroplus lo debe hacer una vez al mes.
           p.mb-0 Si los bovinos están infestados con nuches, se recomienda aplicar aceite negro con veneno.
 
-      .row.mb-5
+      .row.mb-5.align-items-center
         .col-lg-8.mb-4.mb-lg-0(data-aos="fade-left")
           h3.mb-5.titulo-imagen-der Recomendaciones para realizar baños de animales con parásitos externos
           LineaTiempoD.mod-tabs-narver
