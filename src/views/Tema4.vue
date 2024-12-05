@@ -7,10 +7,10 @@
         span 4
       h1(data-aos="fade-right") Reproducción en bovinos
 
-    .row.mb-5
-      .col-md-5.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema4/img01.png' alt='Imagen Decorativa')
-      .col-lg-7
+    .row.mb-5.align-items-center
+      .col-10.col-md-7.mx-auto.mb-3.mb-lg-0(data-aos="fade-left")
+        img.mb-2(src='@/assets/curso/temas/tema4/img01.png' alt='Imagen Decorativa')
+      .col-xl-7.col-lg-12
         p.mb-4 El proceso reproductivo de los bovinos está conformado por dos sistemas orgánicos como lo son el endocrino y el nervioso, cada uno desempeña un papel específico y entre ambos hay una leve interacción para que se produzca de manera exitosa el desarrollo, nacimiento y cría de un animal sano, esto es muy importante en el sistema ganadero porque es vital para la renovación biológica del hato.
 
         .cajon.color-acento-contenido.p-4(data-aos="fade-right")

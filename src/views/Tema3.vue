@@ -26,41 +26,41 @@
 
     TabsA.color-acento-botones.mb-5.mod-tabs-vertical-verde(data-aos="fade-right")
       .tarjeta.p-4(titulo="Manejo de animales")
-        .row
-          .col-lg-7.mb-4
-            p Contar con procedimientos escritos para la detección y manejo de animales enfermos, así como para el uso adecuado de productos químicos veterinarios.
+        .row.align-items-center
+          .col-lg-7.mb-3
+            p.mb-0 Contar con procedimientos escritos para la detección y manejo de animales enfermos, así como para el uso adecuado de productos químicos veterinarios.
 
-          .col-md-5.col-8.mx-auto
+          .col-md-7.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema3/img04.png', alt='Imagen Decorativa')
               
                 
       .tarjeta.p-4(titulo="Sanidad animal")
-        .row
-          .col-lg-7.mb-4
-            p Es fundamental garantizar un enfoque coherente en relación con la salud del rebaño. Es necesario sensibilizar a las personas sobre la estrategia de sanidad animal implementada en la explotación y asegurarse de que la comprendan.
+        .row.align-items-center
+          .col-lg-7.mb-3
+            p.mb-0 Es fundamental garantizar un enfoque coherente en relación con la salud del rebaño. Es necesario sensibilizar a las personas sobre la estrategia de sanidad animal implementada en la explotación y asegurarse de que la comprendan.
 
-          .col-md-5.col-8.mx-auto
+          .col-md-7.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema3/img05.png', alt='Imagen Decorativa')
 
 
       .tarjeta.p-4(titulo="Buena práctica")
-        .row
-          .col-lg-7.mb-4
-            p Es una buena práctica documentar los procedimientos para realizar las tareas de manera controlada y periódica. Estos procedimientos deben abarcar todos los requisitos necesarios, incluyendo los detalles del proceso, el equipo y los materiales utilizados, así como los riesgos o problemas de seguridad relevantes.
+        .row.align-items-center
+          .col-xl-7.mb-3
+            p.mb-0 Es una buena práctica documentar los procedimientos para realizar las tareas de manera controlada y periódica. Estos procedimientos deben abarcar todos los requisitos necesarios, incluyendo los detalles del proceso, el equipo y los materiales utilizados, así como los riesgos o problemas de seguridad relevantes.
 
-          .col-md-5.col-8.mx-auto
+          .col-sm-7.col-lg-5.col-xl-5.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema3/img06.png', alt='Imagen Decorativa')
 
 
       .tarjeta.p-4(titulo="Formación permanente")
-        .row
-          .col-lg-7.mb-4
-            p La formación es un proceso continuo, y todo el personal debe recibir capacitación de manera regular. Los empleados deben ser competentes para comprender el fundamento de las medidas adoptadas. Este proceso también debe facilitar el control de los procedimientos y proporcionar retroalimentación para una mejora constante. Además, se debe identificar claramente a la persona responsable de cada acción específica. (FAO, 2004)
+        .row.align-items-center
+          .col-xl-7.mb-3
+            p.mb-0 La formación es un proceso continuo, y todo el personal debe recibir capacitación de manera regular. Los empleados deben ser competentes para comprender el fundamento de las medidas adoptadas. Este proceso también debe facilitar el control de los procedimientos y proporcionar retroalimentación para una mejora constante. Además, se debe identificar claramente a la persona responsable de cada acción específica. (FAO, 2004)
 
-          .col-md-5.col-8.mx-auto
+          .col-sm-7.col-lg-5.col-xl-5.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema3/img07.png', alt='Imagen Decorativa')
 
@@ -68,7 +68,7 @@
     h2.mb-5.titulo-imagen-izq.cuatro Higiene en el ordeño
 
     .row.mb-5
-      .col-8.col-md-4.col-xl-5.mx-auto.mb-4(data-aos="fade-left")
+      .col-8.col-md-7.col-xl-5.mx-auto.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img09.png' alt='Imagen Decorativa')
       .col-12.col-md-12.col-xl-7(data-aos="fade-right")
         p.mb-4 En una finca ganadera de doble propósito donde se produce leche, es de suma importancia realizar un buen manejo del ordeño porque los consumidores cada día son más exigentes y requieren productos de buena calidad; por eso todo hato lechero debe tener como propósito principal reducir la contaminación microbiana, química y física a niveles mínimos, en busca de la inocuidad del producto.
@@ -96,13 +96,13 @@
             li 
               i.lista-ul__vineta
               | Los operarios deben lavarse las manos antes de iniciar el proceso de ordeño y desinfectarlas con una solución yodada.
-        .col-md-4.col-8.mx-auto
+        .col-md-6.col-8.mx-auto
           figure
             img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen Decorativa')
 
       .row.mb-5.mod-lista-flecha.sm-flex-column-reverse.align-items-center(data-aos="fade-left")
 
-        .col-md-4.col-8.mx-auto 
+        .col-md-6.col-8.mx-auto 
           figure
             img(src='@/assets/curso/temas/tema3/img11.png', alt='Imagen Decorativa')
         .col-12.col-lg-8
@@ -180,7 +180,7 @@
 
     .row.mb-5.mod-lista-flecha.align-items-center
 
-      .col-md-5.col-8.mx-auto.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-md-7.col-8.mx-auto.mb-lg-0.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema3/img18.png', alt='Imagen Decorativa')
 
@@ -244,7 +244,7 @@
                   li 
                     i.lista-ul__vineta
                     | Limpiar las mucosas y el meconio del ternero.  
-            .col-md-5.col-8.mx-auto
+            .col-md-7.col-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen Decorativa')
                 

@@ -68,7 +68,7 @@
     .tarjeta.tarjeta--azul.p-4.p-md-5.mb-5.bg01.mod-slider-pastoreo(data-aos="fade-right")
       SlyderA(tipo="b")
         .row
-          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto.col-lg-8
+          .col-12.col-md-12.col-xl-8.mb-4.mb-md-0.row.mx-auto
             h3 Pastoreo rotacional intensivo con cargas altas
             p Consiste en utilizar terrenos no muy grandes los cuales son divididos en potreros pequeños y de igual tamaño, a estos se les introduce una alta densidad de ganado que oscila entre 10 a 15 animales por hectárea y son utilizados por 3 días con periodos de descanso de 24 días, esto se hace para que las pasturas crezcan de nuevo.
             p Es recomendable que después del pastoreo cada lote reciba fertilización con nitrógeno y con algunos correctivos, por tal razón, los bovinos son llevados a otro lugar mientras se le suministra fertilizante y riego para recuperarlo; una desventaja de este sistema es el alto costo de mantenimiento y establecimiento por la gran demande de fertilidad natural, clima y topografía.
@@ -78,7 +78,7 @@
               
 
         .row
-          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto.col-lg-8
+          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto.col-xl-8
             h3 Estabulado (confinamiento)
             p En este sistema permanecen confinados y se utilizan pasturas de alta calidad que son suministradas al animal picadas o en ensilajes, mediante esta técnica se aprovechan más los forrajes porque no hay pérdidas por pisoteo ni existe contaminación por las heces del animal, lo cual ayuda a que haya una alta capacidad de la carga, esto se ve reflejado en el aumento de peso diario porque el ganado no gasta energía buscando alimento. 
             p En estabulación se suprime la selectividad del animal al buscar alimento, entonces se hace necesario reemplazarlo por suplementos y forrajes de muy buena calidad proteica.
@@ -89,7 +89,7 @@
               
 
         .row
-          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto.col-lg-8
+          .col-12.col-md-12.mb-4.mb-md-0.row.mx-auto.col-xl-8
             h3 Semiestabulación
             p Este sistema es intermedio entre el pastoreo rotacional intensivo y el estabulado, los bovinos permanecen la mayor parte del tiempo en confinamiento con alimento, minerales y agua a voluntad, pero se llevan a que pastoreen en rotación durante algunas horas al día, con el fin de que completen sus requerimientos nutricionales y ejerciten los músculos. 
             p Mediante este sistema se hace un mejor manejo del ganado, se disminuye la pérdida de forraje por pisoteo y hay un mejor aprovechamiento del estiércol que se puede utilizar para hacer abonos compostados que son empleados en la unidad productiva como fertilizantes para los cultivos y las praderas.
@@ -153,11 +153,11 @@
 
 
       .row.mb-5.mb-lg-0.align-items-center
-        .col-lg-7.mb-4.mb-md-5(data-aos="fade-left")
+        .col-xl-7.col-lg-12.mb-4.mb-md-5(data-aos="fade-left")
           p.mb-5 Para el ganado de doble propósito proveniente del cruce entre Brahman y razas Bos Indicus, se recomienda utilizar cercas de entre 1.6 y 1.8 metros de altura para evitar que los animales se escapen o sufran lesiones. Además de la altura, las cercas deben ser robustas y duraderas, preferiblemente construidas con materiales resistentes como madera tratada, postes metálicos o concreto, dependiendo de las condiciones locales y del presupuesto disponible.
           .cajon.color-acento-contenido.p-4
             p.mb-0 Es crucial que el apretadero, la manga y la rampa cuenten con paredes sólidas, no solo para guiar el movimiento de los animales, sino también para reducir su estrés durante los procesos de manejo. Las paredes sólidas evitan que el ganado vea lo que ocurre afuera, lo que puede contribuir a disminuir la ansiedad y prevenir accidentes, ya que los bovinos tienden a asustarse fácilmente con ruidos o movimientos bruscos.
-        .col-md-5.col-8.mx-auto(data-aos="fade-right")
+        .col-xl-5.col-lg-5.col-8.mx-auto.mb-2(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema1/img16.png' alt='Imagen Decorativa')
       p.mb-5 Si el presupuesto lo permite, se recomienda también incluir paredes sólidas en el callejón de manejo. El callejón es una estructura clave en las instalaciones ganaderas, ya que facilita el traslado de los animales de un área a otra dentro de la finca. Al estar bien diseñado y construido, con suficiente espacio para el paso de los animales, se garantiza una operación más eficiente y segura tanto para los trabajadores como para los bovinos
 

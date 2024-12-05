@@ -19,7 +19,7 @@
     .mod-fondo-09
       .row.mb-5.align-items-center
         .col-lg-8(data-aos="fade-left")
-          SlyderF(columnas="col-lg-6").mod-tarjetas-fondo-blanco
+          SlyderF(columnas="col-lg-6 col-xl-6 col-md-6").mod-tarjetas-fondo-blanco
             .tarjeta.p-4
               .row.justify-content-center.mb-3
                 .col-6

@@ -78,10 +78,10 @@
           p.mb-0 Para implementar de manera exitosa un programa de inseminación artificial en la finca, se debe verificar lo siguiente:
       
       .row.mb-5.align-items-center
-          .col-lg-4.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-lg-4.col-6.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema6/img05.png' alt='Imagen Decorativa')
           .col-lg-8(data-aos="fade-right")
-            SlyderF(columnas="col-lg-6").mod-tarjetas-fondo-blanco
+            SlyderF(columnas="col-lg-6 col-xl-6 col-md-6").mod-tarjetas-fondo-blanco
               .tarjeta.p-4
                 .row.justify-content-center.mb-3
                   .col-6
@@ -144,7 +144,7 @@
         h2.mb-3.titulo-flecha-izq Periodos de inseminación
         p.mb-2 Lo primero que se debe hacer para realizar una inseminación es identificar el ciclo estral de las hembras y las manifestaciones de éstas a través del comportamiento y los cambios externos en la anatomía y fisiología de los órganos reproductores, para así determinar exactamente cuándo una hembra está en celo y se puede proceder a realizar la inseminación artificial; de dicho proceso depende el éxito o el fracaso del programa.
         p.mb-4 Es muy común que en las fincas ganaderas se tenga establecido que la hembra que presenta su calor en horas de la mañana se le sirve en horas de la tarde y las hembras que manifiestan el calor en la tarde se inseminen en la mañana siguiente.
-      .col-md-6.col-lg-4.mx-auto.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-md-7.col-lg-4.mx-auto.mb-4.mb-lg-0(data-aos="fade-right")
         img.img-t.mx-auto(src='@/assets/curso/temas/tema6/img15.png' alt='Imagen Decorativa')
       
     .mb-5.col-10.col-lg-8.mx-auto(data-aos="fade-up")
@@ -156,12 +156,12 @@
     
     .mod-fondo-15
       .row.pb-5.align-items-center
-        .col-md-4.col-8.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
+        .col-8.col-md-6.col-lg-4.col-xl-4.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema6/img17.png' alt='Imagen Decorativa')
-        .col-lg-8(data-aos="fade-right")
+        
+        .col-12.col-md-12.col-lg-8.col-xl-8(data-aos="fade-right")
           .cajon.color-acento-contenido.p-4.mb-3
             p.mb-0 Esto se maneja así porque esos horarios coinciden con el momento de la ovulación y el periodo en el cual los espermatozoides son capaces de realizar la fertilización. Las hembras que manifiestan celo al mediodía deben ser inseminadas preferiblemente en la tarde o al anochecer.
-          
           p.mb-4 Se debe evitar inseminar a hembras que presenten secreciones purulentas.
           h2.mb-3.titulo-flecha-izq Inseminador
           p.mb-4 La persona que realiza el proceso de inseminación debe estar capacitada y ser consciente que de él depende la productividad del hato ganadero, por tal razón, debe ser responsable y desempeñar su labor de forma ética; además es conveniente que realice esta tarea con agilidad y de la mejor manera para así tener éxito en la inseminación.

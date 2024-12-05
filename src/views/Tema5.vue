@@ -21,7 +21,7 @@
 
 
     .row.mb-5.align-items-center
-      .col-5.col-xl-5.mx-auto.mb-4(data-aos="fade-left")
+      .col-7.col-xl-5.mx-auto.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema5/img03.png' alt='Imagen Decorativa')
       .col-12.col-xl-7(data-aos="fade-right")
         p.mb-4 Los bovinos machos nacen con su aparato genital formado y no ocurre ninguna alteración en su funcionamiento hasta que el animal no alcanza una edad determinada donde los testículos cambian de tamaño produciendo la testosterona que está involucrada en la producción de espermatozoides y en el comportamiento del macho para detectar a la hembra cuando está en calor y montarla. 
@@ -101,7 +101,7 @@
 
 
     .row.mb-5.align-items-center
-      .col-3.col-lg-3.mx-auto.mb-4(data-aos="fade-left")
+      .col-5.col-lg-3.mx-auto.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema5/img05.png' alt='Imagen Decorativa')
       .col-12.col-lg-9(data-aos="fade-right")
         p.mb-4 La pubertad en una hembra inicia cuando aparece la época de celo, es decir, su primer estro acompañado de la ovulación y la maduración del cuerpo lúteo en los ovarios; este proceso se da más o menos a los catorce a quince meses de edad, pero depende del manejo que se le da a la hembra en cuanto a la alimentación.
@@ -126,7 +126,7 @@
     TabsC.mb-5.mod-tabs-gris(data-aos="fade-left")
       .p-5(titulo="Fase I - Estrogénica")
         .row
-          .col-12.col-sm-8.col-md-5.col-xl-5.mx-auto.mb-3
+          .col-12.col-sm-8.col-md-7.col-xl-5.mx-auto.mb-3
             figure
               img(src='@/assets/curso/temas/tema5/img07.png', alt='Imagen Decorativa')
           .col-12.col-xl-7.mb-4.mb-md-0
@@ -137,7 +137,7 @@
       
       .p-5(titulo="Fase II - Progesterónica")
         .row
-          .col-12.col-sm-8.col-md-5.col-xl-5.mx-auto.mb-3
+          .col-12.col-sm-8.col-md-7.col-xl-5.mx-auto.mb-3
             figure
               img(src='@/assets/curso/temas/tema5/img08.png', alt='Imagen Decorativa')
           .col-12.col-xl-7.mb-4.mb-md-0
@@ -244,7 +244,7 @@
 
       .row.mb-5
         .col-lg-8(data-aos="fade-left")
-          SlyderF(columnas="col-lg-6").mod-tarjetas-fondo-blanco
+          SlyderF(columnas="col-lg-6 col-xl-6 col-md-6").mod-tarjetas-fondo-blanco
             .tarjeta.p-4
               .row.justify-content-center.mb-3
                 .col-6
