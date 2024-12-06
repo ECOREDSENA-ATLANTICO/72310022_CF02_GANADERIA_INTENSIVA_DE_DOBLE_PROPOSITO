@@ -151,7 +151,7 @@
       .titulo-sexto.color-acento-contenido.mb-4
         h5 Figura 3.
         span Periodos de inseminación
-      img(src='@/assets/curso/temas/tema6/img16.svg' alt='Imagen Decorativa').mb-4
+      img(src='@/assets/curso/temas/tema6/img16.svg' alt='Muestra una gráfica con el periodos de inseminación, inseminación artificial y monta natura.').mb-4
       figcaption Nota. SENA
     
     .mod-fondo-15

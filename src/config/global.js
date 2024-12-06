@@ -106,7 +106,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/72310022_CF02_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -129,7 +129,7 @@ export default {
     },
     {
       tema: 'Monta natural e inseminación artificial',
-      referencia: 'Contexto Ganaderos (2015)',
+      referencia: 'Contexto Ganaderos (2015).',
       tipo: 'Página <em>web</em>',
       link:
         'https://www.contextoganadero.com/internacional/8-cualidades-que-usted-debe-saber-sobre-el-semen-del-toro-ideal',
@@ -139,7 +139,7 @@ export default {
     {
       termino: 'Bienestar animal',
       significado:
-        'concepto que abarca las condiciones físicas y psicológicas adecuadas para los animales, garantizando su salud, confort y calidad de vida en un entorno de crianza',
+        'concepto que abarca las condiciones físicas y psicológicas adecuadas para los animales, garantizando su salud, confort y calidad de vida en un entorno de crianza.',
     },
     {
       termino: 'Diferenciación sexual en bovinos',
@@ -206,13 +206,13 @@ export default {
     },
     {
       referencia:
-        'Valencia, W. L. (2015). “CARACTERÍSTICAS DEL APARATO REPRODUCTOR EN VACAS CRIOLLAS EN EL MATADERO DE QUICAPATA A 2800 m.s.n.m. AYACUCHO.',
+        'Valencia, W. L. (2015). “Caracteristicas del aparato reproductor en vacas criollas en el matadero de Quicapata a 2800 m.s.n.m. Ayacucho.',
       link:
         'https://repositorio.unsch.edu.pe/server/api/core/bitstreams/f48c97fc-e11e-4112-86bf-4f397726f338/content',
     },
     {
       referencia:
-        'Sanchez1, D. A. ( 2020 ). ACTUALIDAD EN GINECOLOGÌA Y OBSTETRICIA EN BOVINOS. Villavicencio, Meta.',
+        'Sanchez1, D. A. ( 2020 ). Actualidad en ginecología y obstetricia en bovinos. Villavicencio, Meta.',
       link:
         'https://repository.ucc.edu.co/server/api/core/bitstreams/8eac119b-9770-4db0-8d75-5810fedfa349/content#:~:text=Dentro%20de%20la%20vagina%20se,Dejarnette%20%26%20Nebel%2C%202018)',
     },
@@ -247,7 +247,7 @@ export default {
           nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -268,7 +268,7 @@ export default {
           nombre: 'Gilberto Herrera Delgans',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -279,19 +279,19 @@ export default {
           nombre: 'Antonio Vecino Valer',
           cargo: 'Diseñador <em>web</em>',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
           cargo: 'Desarrollador <em>full stack</em>',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -302,25 +302,25 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Jairo Luis Valencia Ebratt',
           cargo: 'Validador y vinculador de recursos digitales',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Juan Carlos Cardona Acosta',
           cargo: 'Validador y vinculador de recursos digitales',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },

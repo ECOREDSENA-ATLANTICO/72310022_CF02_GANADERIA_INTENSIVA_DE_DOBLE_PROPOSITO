@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra la síntesis del componente formativo: reproducción bovina de doble propósito, teniendo en cuenta la ganadería intensiva, sistema de control de parásitos plan de sanidad animal en una finca ganadera de doble propósito, reproducción en bovinos, diferenciación sexual en bovinos y monta natural.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

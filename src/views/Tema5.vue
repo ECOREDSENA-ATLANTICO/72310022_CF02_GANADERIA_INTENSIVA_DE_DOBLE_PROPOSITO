@@ -205,7 +205,7 @@
         
 
       .mb-5.col-10.col-lg-12.mx-auto
-        img(src='@/assets/curso/temas/tema5/img10.svg' alt='Imagen Decorativa').mb-4
+        img(src='@/assets/curso/temas/tema5/img10.svg' alt='Muestra el ciclo estral de la hembra bovina: Cuerpo lúteo de regresión. Folículo en desarrollo produciendo estrógenos. Cuerpo lúteo en desarrollo. Cuerpo lúteo activo produciendo progesterona.').mb-4
         figcaption Nota. García (2013)
 
 
@@ -214,7 +214,7 @@
         span Hormonas que intervienen directamente en la reproducción
 
       .mb-5.col-10.col-lg-12.mx-auto
-        img(src='@/assets/curso/temas/tema5/img11.svg' alt='Imagen Decorativa').mb-4
+        img(src='@/assets/curso/temas/tema5/img11.svg' alt='Muestra una grafica de las hormonas que intervienen directamente en la reproducción, niveles de hormonas, versus fases.').mb-4
         figcaption Nota. Cifuentes (2014)
 
 

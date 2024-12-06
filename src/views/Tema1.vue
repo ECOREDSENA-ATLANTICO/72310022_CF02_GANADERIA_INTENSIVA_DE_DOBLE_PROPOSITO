@@ -288,7 +288,7 @@
       ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca(data-aos="fade-up")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema1/img26.png', alt='Imagen Decorativa')
+            img(src='@/assets/curso/temas/tema1/img26.png', alt='Muestra los diferentes puntos donde se pueden suministrar medicamentos: oral, intravenosa o endovenosa, intramuscular, intraperitoneal, rectal, intrauterina, intramamaria y tópica.')
             
         .tarjeta.color-acento-botones.p-4(x="98%" y="44%" numero="1")
           .h4.mb-3 Oral
