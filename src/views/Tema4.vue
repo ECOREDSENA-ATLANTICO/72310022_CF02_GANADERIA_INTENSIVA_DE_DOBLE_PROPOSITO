@@ -23,7 +23,7 @@
       p.mb-5 El aparato reproductor femenino tiene la función de manifestar el celo a través de signos como la inflamación de los labios, secreciones y cambios en la coloración de la vulva. Está compuesto por dos ovarios, dos conductos, un útero, la vagina y la vulva. Los cuernos uterinos, que se comunican con la vagina a través del vestíbulo ubicado debajo del ano, forman el aparato genital de la hembra. El clítoris produce excitación en la hembra, mientras que la parte exterior del órgano genital protege y facilita la entrada del pene del macho; le invitamos a conocer más sobre este aparato reproductor:
 
 
-      ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca(data-aos="fade-up")
+      ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca(data-aos="fade-right")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema4/img03.png', alt='Muestra el aparato reproductor de la hembra bovina.')
@@ -71,7 +71,7 @@
     p.mb-5 En el sistema ganadero bovino, es esencial identificar los órganos sexuales del macho reproductor, su funcionamiento y las características fenotípicas deseables para la reproducción. El aparato reproductivo externo incluye pene, prepucio y testículos; el interno está compuesto por tubos seminíferos, epidídimo, ducto deferente, vesículas seminales, próstata y glándulas bulbouretrales. A continuación, se describen sus funciones:
   
 
-    ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca
+    ImagenInfografica.col-10.col-lg-8.mx-auto.mb-5.mod-info-vaca(data-aos="fade-left")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema4/img05.png', alt='Muestra el aparato reproductor del macho bovino')
