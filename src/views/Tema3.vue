@@ -240,7 +240,7 @@
                     | Observar el color de las mucosas del ano, vulva, ojos y fosas nasales, que deben ser rosadas en animales sanos.
                   li 
                     i.lista-ul__vineta
-                    | Realizar la curación del ombligo con yodo al 10% o 20%, sumergiendo el cordón umbilical en la solución durante un minuto.
+                    | Realizar la curación del ombligo con yodo al 10 % o 20 %, sumergiendo el cordón umbilical en la solución durante un minuto.
                   li 
                     i.lista-ul__vineta
                     | Limpiar las mucosas y el meconio del ternero.  

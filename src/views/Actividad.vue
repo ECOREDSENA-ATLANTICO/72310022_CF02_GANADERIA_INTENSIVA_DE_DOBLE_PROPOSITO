@@ -29,12 +29,12 @@ export default {
             {
               id: 'b',
               texto: 'Alta densidad de animales por área.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto: 'Producción limitada de carne y leche.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -54,22 +54,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Aumentar el peso del ganado.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
               texto: 'Prevenir enfermedades parasitarias.',
               esCorrecta: true,
             },
             {
-              id: 'c',
+              id: 'b',
               texto: 'Reducir el uso de medicamentos.',
               esCorrecta: false,
             },
             {
-              id: 'd',
+              id: 'c',
               texto: 'Maximizar la producción de leche.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Prevenir enfermedades parasitarias.',
               esCorrecta: false,
             },
           ],
@@ -227,22 +227,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Que tiene múltiples periodos fértiles durante el año.',
-              esCorrecta: true,
+              texto: 'Mayor variabilidad genética.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Que solo se reproduce una vez al año.',
+              texto: 'Menor costo de implementación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Que necesita intervención hormonal para reproducirse.',
-              esCorrecta: false,
+              texto: 'Reducción de enfermedades de transmisión sexual',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Que solo se reproduce en primavera.',
+              texto: 'Mayor tasa de partos múltiples',
               esCorrecta: false,
             },
           ],
@@ -252,14 +252,210 @@ export default {
         {
           id: 10,
           texto:
-            '¿Qué método de reproducción puede aumentar la eficiencia genética del rebaño?',
+            '¿Cuál es el tiempo ideal para inseminar a una vaca luego del inicio del celo?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Monta natural.', esCorrecta: false },
-            { id: 'b', texto: 'Alimentación controlada.', esCorrecta: false },
-            { id: 'c', texto: 'Inseminación artificial.', esCorrecta: true },
-            { id: 'd', texto: 'Uso de vacunas.', esCorrecta: false },
+            { id: 'a', texto: 'Entre 1 y 3 horas.', esCorrecta: false },
+            { id: 'b', texto: 'Entre 12 y 24 horas.', esCorrecta: false },
+            { id: 'c', texto: 'Entre 36 y 48 horas.', esCorrecta: true },
+            { id: 'd', texto: 'Entre 48 y 72 horas.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 11,
+          texto:
+            '¿Cuál es el objetivo principal de un plan de sanidad animal en una finca?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentar la producción de leche.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Garantizar el bienestar y la salud del ganado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Mejorar la calidad de la carne.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Facilitar el ordeño.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 12,
+          texto:
+            '¿Qué tipo de vacuna es común en un plan de sanidad para ganado bovino?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Antirrábica.', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'Contra el virus del mosaico.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Contra la sarna.', esCorrecta: false },
+            { id: 'd', texto: 'Para el moquillo.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Cuál es una enfermedad que debe controlarse en un plan sanitario de bovinos?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Resfriado común.', esCorrecta: false },
+            { id: 'b', texto: 'Brucelosis.', esCorrecta: true },
+            { id: 'c', texto: 'Gripe bovina.', esCorrecta: false },
+            { id: 'd', texto: 'Anemia bovina.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 14,
+          texto: '¿Qué es el ciclo estral en bovinos?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'El período de gestación.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'La fase de crecimiento del ternero.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La serie de cambios hormonales que ocurre regularmente en hembras.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'La producción de leche.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 15,
+          texto: '¿Cuál es el principal indicador de celo en las vacas?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Disminución de apetito.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Levantarse y moverse constantemente.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Montarse sobre otras vacas.', esCorrecta: true },
+            {
+              id: 'd',
+              texto: 'Cambios de color en el pelaje.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Con qué frecuencia se recomienda desparasitar a los bovinos?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Anualmente.', esCorrecta: false },
+            { id: 'b', texto: 'Cada seis meses.', esCorrecta: false },
+            { id: 'c', texto: 'Mensualmente.', esCorrecta: false },
+            { id: 'd', texto: 'Cada tres meses.', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué técnica se usa para diagnosticar el embarazo en vacas?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Ecografía.', esCorrecta: true },
+            { id: 'b', texto: 'Radiografía.', esCorrecta: false },
+            { id: 'c', texto: 'Examen de sangre.', esCorrecta: false },
+            { id: 'd', texto: 'Prueba de leche.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué instrumento es esencial en la inseminación artificial para depositar el semen en la vaca?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Ecógrafo.', esCorrecta: false },
+            { id: 'b', texto: 'Termómetro rectal.', esCorrecta: false },
+            { id: 'c', texto: 'Pistola de inseminación.', esCorrecta: true },
+            { id: 'd', texto: 'Microscopio.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Cuál es la función de un desparasitante en el ganado bovino?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Incrementar el peso.', esCorrecta: false },
+            { id: 'b', texto: 'Reducir el estrés.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Eliminar parásitos internos y externos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Mejorar la producción de leche.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué medida es parte de un plan de bioseguridad en una finca?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Uso de pastos nuevos.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Control de acceso de visitantes.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Inseminación artificial.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Entrenamiento de los trabajadores.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',

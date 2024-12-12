@@ -189,7 +189,7 @@
 
     h3.mb-5.titulo-imagen-der Requisitos mínimos a tener en cuenta en la producción ganadera
 
-    p.mb-5 El manejo adecuado del ganado bovino en una finca ganadera requiere prestar atención a diversos factores clave que influyen directamente en su bienestar y productividad. El acceso a agua limpia y suficiente, un correcto mantenimiento de los potreros. A continuación se referencian los requisimos minimos a tener encuenta en la producción ganadera.
+    p.mb-5 El manejo adecuado del ganado bovino en una finca ganadera requiere prestar atención a diversos factores clave que influyen directamente en su bienestar y productividad. El acceso a agua limpia y suficiente, un correcto mantenimiento de los potreros. A continuación se referencian los requisimos mínimos a tener encuenta en la producción ganadera.
 
 
     .row.mb-5
@@ -198,7 +198,7 @@
       .col-lg-8(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul mod-ac-narver")
           .row(titulo="Agua")
-             p Es esencial garantizar que los bovinos consuman agua fresca y limpia, ya que el agua contaminada puede disminuir la producción y causar enfermedades, afectando la calidad de la leche y la carne. Es crucial contar con suficientes bebederos para que todos los animales puedan acceder al agua, especialmente dado que las necesidades hídricas varían según la edad, condición corporal y estado fisiológico. Los bovinos adultos tienen un 70% de agua en su cuerpo, mientras que los terneros recién nacidos tienen un 90%; su pérdida del 25% puede ser fatal. Se recomienda suministrar agua de 2 a 3 veces al día.
+             p Es esencial garantizar que los bovinos consuman agua fresca y limpia, ya que el agua contaminada puede disminuir la producción y causar enfermedades, afectando la calidad de la leche y la carne. Es crucial contar con suficientes bebederos para que todos los animales puedan acceder al agua, especialmente dado que las necesidades hídricas varían según la edad, condición corporal y estado fisiológico. Los bovinos adultos tienen un 70 % de agua en su cuerpo, mientras que los terneros recién nacidos tienen un 90 %; su pérdida del 25 % puede ser fatal. Se recomienda suministrar agua de 2 a 3 veces al día.
 
           .row(titulo="Potreros")
              p Para garantizar una alimentación rica en nutrientes debe hacerle un adecuado mantenimiento a los pastizales, sembrar forrajes resistentes de acuerdo a la zona donde se encuentra la ganadería, evitar que los animales estén siempre en el mismo potrero, mantener el pasto libre de malezas y rozar el forraje después de que el animal pastoree. También se recomienda sembrar sistemas silvopastoriles como una alternativa de alimentación en época de verano y para proteger con su sombra al ganado y sus crías del calor extremo.
