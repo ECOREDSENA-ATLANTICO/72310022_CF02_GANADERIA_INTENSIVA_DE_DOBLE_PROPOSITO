@@ -27,20 +27,20 @@
     TabsA.color-acento-botones.mb-5.mod-tabs-vertical-verde(data-aos="fade-right")
       .tarjeta.p-4(titulo="Manejo de animales")
         .row.align-items-center
-          .col-lg-7.mb-3
+          .col-xl-7.mb-3
             p.mb-0 Contar con procedimientos escritos para la detección y manejo de animales enfermos, así como para el uso adecuado de productos químicos veterinarios.
 
-          .col-md-7.col-8.mx-auto
+          .col-sm-7.col-lg-5.col-xl-5.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema3/img04.png', alt='Imagen Decorativa')
               
                 
       .tarjeta.p-4(titulo="Sanidad animal")
         .row.align-items-center
-          .col-lg-7.mb-3
+          .col-xl-7.mb-3
             p.mb-0 Es fundamental garantizar un enfoque coherente en relación con la salud del rebaño. Es necesario sensibilizar a las personas sobre la estrategia de sanidad animal implementada en la explotación y asegurarse de que la comprendan.
 
-          .col-md-7.col-8.mx-auto
+          .col-sm-7.col-lg-5.col-xl-5.col-8.mx-auto
             figure
               img(src='@/assets/curso/temas/tema3/img05.png', alt='Imagen Decorativa')
 
@@ -78,7 +78,7 @@
 
     .mod-fondo-11
       .row.mb-5.mod-lista-flecha.align-items-center(data-aos="fade-right")
-        .col-12.col-lg-8
+        .col-12.col-xl-8.col-lg-8
           p.mb-5 <strong>Los principales aspectos a tener en cuenta en el ordeño son:</strong>
           ul.lista-ul
             li 
@@ -96,13 +96,13 @@
             li 
               i.lista-ul__vineta
               | Los operarios deben lavarse las manos antes de iniciar el proceso de ordeño y desinfectarlas con una solución yodada.
-        .col-md-6.col-8.mx-auto
+        .col-md-4.col-8.mx-auto
           figure
             img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen Decorativa')
 
       .row.mb-5.mod-lista-flecha.sm-flex-column-reverse.align-items-center(data-aos="fade-left")
 
-        .col-md-6.col-8.mx-auto 
+        .col-md-4.col-8.mx-auto 
           figure
             img(src='@/assets/curso/temas/tema3/img11.png', alt='Imagen Decorativa')
         .col-12.col-lg-8
@@ -180,7 +180,7 @@
 
     .row.mb-5.mod-lista-flecha.align-items-center
 
-      .col-md-7.col-8.mx-auto.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-md-5.col-8.mx-auto.mb-lg-0.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema3/img18.png', alt='Imagen Decorativa')
 
@@ -244,7 +244,7 @@
                   li 
                     i.lista-ul__vineta
                     | Limpiar las mucosas y el meconio del ternero.  
-            .col-md-7.col-8.mx-auto
+            .col-md-5.col-8.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen Decorativa')
                 
