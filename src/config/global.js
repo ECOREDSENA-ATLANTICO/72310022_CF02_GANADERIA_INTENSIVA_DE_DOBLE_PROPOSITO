@@ -266,7 +266,7 @@ export default {
         },
         {
           nombre: 'Gilberto Herrera Delgans',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Evaluador Instruccional',
           centro:
             'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
