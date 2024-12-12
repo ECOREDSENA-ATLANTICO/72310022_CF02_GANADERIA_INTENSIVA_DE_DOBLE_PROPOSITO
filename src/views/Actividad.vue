@@ -253,7 +253,7 @@ export default {
           id: 10,
           texto:
             '¿Cuál es el tiempo ideal para inseminar a una vaca luego del inicio del celo?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Entre 1 y 3 horas.', esCorrecta: false },
@@ -268,7 +268,7 @@ export default {
           id: 11,
           texto:
             '¿Cuál es el objetivo principal de un plan de sanidad animal en una finca?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -295,7 +295,7 @@ export default {
           id: 12,
           texto:
             '¿Qué tipo de vacuna es común en un plan de sanidad para ganado bovino?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Antirrábica.', esCorrecta: true },
@@ -328,7 +328,7 @@ export default {
         {
           id: 14,
           texto: '¿Qué es el ciclo estral en bovinos?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'El período de gestación.', esCorrecta: false },
@@ -351,7 +351,7 @@ export default {
         {
           id: 15,
           texto: '¿Cuál es el principal indicador de celo en las vacas?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Disminución de apetito.', esCorrecta: false },
@@ -374,7 +374,7 @@ export default {
           id: 16,
           texto:
             '¿Con qué frecuencia se recomienda desparasitar a los bovinos?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Anualmente.', esCorrecta: false },
@@ -403,7 +403,7 @@ export default {
           id: 18,
           texto:
             '¿Qué instrumento es esencial en la inseminación artificial para depositar el semen en la vaca?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Ecógrafo.', esCorrecta: false },
@@ -418,7 +418,7 @@ export default {
           id: 19,
           texto:
             '¿Cuál es la función de un desparasitante en el ganado bovino?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Incrementar el peso.', esCorrecta: false },
@@ -441,7 +441,7 @@ export default {
           id: 20,
           texto:
             '¿Qué medida es parte de un plan de bioseguridad en una finca?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Uso de pastos nuevos.', esCorrecta: false },
