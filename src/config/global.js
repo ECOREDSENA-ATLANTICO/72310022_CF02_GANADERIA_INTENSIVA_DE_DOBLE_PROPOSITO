@@ -241,7 +241,7 @@ export default {
           nombre: 'Milady Tatiana Villamil Castellanos',
           cargo:
             'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Dirección General',
+          centro: 'Dirección general',
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
@@ -266,7 +266,7 @@ export default {
         },
         {
           nombre: 'Gilberto Herrera Delgans',
-          cargo: 'Evaluador Instruccional',
+          cargo: 'Evaluador instruccional',
           centro:
             'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
@@ -289,7 +289,7 @@ export default {
         },
         {
           nombre: 'Alexander Rafael Acosta Bedoya',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y producción audiovisual',
           centro:
             'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
