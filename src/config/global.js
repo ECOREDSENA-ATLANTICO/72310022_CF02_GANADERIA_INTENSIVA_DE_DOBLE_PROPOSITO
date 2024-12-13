@@ -255,14 +255,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Julio Hernán Beltrán Peñuela',
-          cargo: 'Experto temático',
-          centro: 'N/A',
+          nombre: 'Angela Viviana Páez Perilla',
+          cargo: 'Experta temática',
+          centro: 'Centro Agroindustrial – Regional Quindío ',
         },
         {
-          nombre: 'Mónica Patricia Osorio Martínez',
-          cargo: 'Asesor Pedagógico',
-          centro: 'N/A',
+          nombre: 'Paola Andrea Bobadilla Gutiérrez',
+          cargo: 'Guionista - línea de producción',
+          centro: 'Centro Agroindustrial – Regional Quindío ',
         },
         {
           nombre: 'Gilberto Herrera Delgans',
